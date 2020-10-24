@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ListFragment">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/hour_price_item_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="9"
+            tools:listitem="@layout/hour_price_item" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            tools:context=".ListFragment">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:context=".ListFragment">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="BTC/USD" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="21 OCT 2020" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                tools:context=".ListFragment">
+
+                <TextView
+                    android:id="@+id/high_string"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:text="HIGH" />
+
+                <TextView
+                    android:id="@+id/high_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentEnd="true"
+                    android:text="2163 USD" />
+
+
+                <TextView
+                    android:id="@+id/low_string"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/high_string"
+                    android:layout_alignParentStart="true"
+                    android:text="LOW" />
+
+                <TextView
+                    android:id="@+id/low_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/high_value"
+                    android:layout_alignParentEnd="true"
+                    android:text="2163 USD" />
+
+
+                <TextView
+                    android:id="@+id/open_string"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/low_string"
+                    android:layout_alignParentStart="true"
+                    android:text="OPEN" />
+
+                <TextView
+                    android:id="@+id/open_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/low_value"
+                    android:layout_alignParentEnd="true"
+                    android:text="2163 USD" />
+
+
+                <TextView
+                    android:id="@+id/close_string"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/open_string"
+                    android:layout_alignParentStart="true"
+                    android:text="CLOSE" />
+
+                <TextView
+                    android:id="@+id/close_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/open_value"
+                    android:layout_alignParentEnd="true"
+                    android:text="2163 USD" />
+
+
+                <TextView
+                    android:id="@+id/change_string"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/close_string"
+                    android:layout_alignParentStart="true"
+                    android:text="CHANGE" />
+
+                <TextView
+                    android:id="@+id/change_value"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/close_value"
+                    android:layout_alignParentEnd="true"
+                    android:text="2163 USD" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</layout>

@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">Crypto</string>
+    <string name="app_name">lab4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="test_blank_fragment">Test</string>
+
+    <string name="bttn_run">Run!</string>
+    <string name="bttn_alarm">AlArM!!i!i!</string>
+    <string name="bttn_map">pomoika</string>
+    <string name="bttn_google">yandex</string>
+    <string name="bttn_link">link</string>
+    <string name="bttn_run_hint">search</string>
 </resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="hour"
+            type="String" />
+        <variable
+            name="percent"
+            type="String" />
+        <variable
+            name="change"
+            type="String" />
+        <variable
+            name="close"
+            type="String" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/hour_price_item_hour"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@{hour}"
+            android:textSize="17sp" />
+        <TextView
+            android:id="@+id/hour_price_item_percent"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@{percent}"
+            android:textSize="17sp" />
+        <TextView
+            android:id="@+id/hour_price_item_change"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@{change}"
+            android:textSize="17sp" />
+        <TextView
+            android:id="@+id/hour_price_item_close"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@{close}"
+            android:textSize="17sp" />
+
+    </LinearLayout>
+</layout>
