@@ -4,15 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
+
         <variable
             name="hour"
             type="String" />
+
         <variable
             name="percent"
             type="String" />
+
         <variable
             name="change"
             type="String" />
+
         <variable
             name="close"
             type="String" />
@@ -26,31 +30,34 @@
         <TextView
             android:id="@+id/hour_price_item_hour"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@{hour}"
-            android:textSize="17sp" />
+            android:textAppearance="@style/full_day_info_daily_txt" />
+
         <TextView
             android:id="@+id/hour_price_item_percent"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@{percent}"
-            android:textSize="17sp" />
+            android:textAppearance="@style/full_day_info_daily_txt" />
+
         <TextView
             android:id="@+id/hour_price_item_change"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@{change}"
-            android:textSize="17sp" />
+            android:textAppearance="@style/full_day_info_daily_txt" />
+
         <TextView
             android:id="@+id/hour_price_item_close"
             android:layout_width="0dp"
-            android:layout_weight="1"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="@{close}"
-            android:textSize="17sp" />
+            android:textAppearance="@style/full_day_info_daily_bold_txt" />
 
     </LinearLayout>
 </layout>

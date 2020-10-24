@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <solid android:color="@color/colorMainBlue" />
+
+    <corners
+        android:topLeftRadius="40dp"
+        />
+
+</shape>
+<!--<vector xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:aapt="http://schemas.android.com/aapt"-->
+<!--    android:width="414dp"-->
+<!--    android:height="658dp"-->
+<!--    android:viewportWidth="414"-->
+<!--    android:viewportHeight="658">-->
+
+<!--    <group>-->
+
+<!--        <clip-path android:pathData="M0 0H414V658H0V0Z" />-->
+
+<!--        <path-->
+<!--            android:fillColor="#2E26D9"-->
+<!--            android:pathData="M0 0V658H414V0" />-->
+
+<!--    </group>-->
+
+<!--</vector>-->

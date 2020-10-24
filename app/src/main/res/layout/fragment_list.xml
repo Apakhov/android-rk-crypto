@@ -21,64 +21,72 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="4"
+            android:layout_weight="5"
             android:orientation="vertical"
+            android:background="@drawable/blue_rect"
             tools:context=".ListFragment">
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                tools:context=".ListFragment">
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="BTC/USD" />
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="21 OCT 2020" />
-            </LinearLayout>
 
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
                 tools:context=".ListFragment">
+                <TextView
+                    android:id="@+id/exchange_string"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginTop="@dimen/full_day_info_top_margin"
+                    android:layout_marginStart="@dimen/full_day_info_left_margin"
+                    android:textAppearance="@style/full_day_info_exchange_txt"
+                    android:text="BTC/USD" />
+
+                <TextView
+                    android:id="@+id/date_string"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/exchange_string"
+                    android:layout_alignStart="@+id/exchange_string"
+                    android:textAppearance="@style/full_day_info_date_txt"
+                    android:text="21 OCT 2020" />
 
                 <TextView
                     android:id="@+id/high_string"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
+                    android:layout_below="@+id/date_string"
+                    android:layout_alignStart="@+id/date_string"
+                    android:textAppearance="@style/full_day_info_name_txt"
                     android:text="HIGH" />
+
 
                 <TextView
                     android:id="@+id/high_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
+                    android:layout_alignTop="@+id/high_string"
                     android:layout_alignParentEnd="true"
-                    android:text="2163 USD" />
-
+                    android:layout_marginEnd="@dimen/full_day_info_right_margin"
+                    android:text="2163 USD"
+                    android:textAppearance="@style/full_day_info_value_txt" />
 
                 <TextView
                     android:id="@+id/low_string"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/high_string"
-                    android:layout_alignParentStart="true"
-                    android:text="LOW" />
+                    android:layout_alignStart="@+id/high_string"
+                    android:text="LOW"
+                    android:textAppearance="@style/full_day_info_name_txt" />
 
                 <TextView
                     android:id="@+id/low_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/high_value"
-                    android:layout_alignParentEnd="true"
+                    android:layout_alignTop="@+id/low_string"
+                    android:layout_alignEnd="@+id/high_value"
+                    android:textAppearance="@style/full_day_info_value_txt"
                     android:text="2163 USD" />
 
 
@@ -87,15 +95,17 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/low_string"
-                    android:layout_alignParentStart="true"
+                    android:layout_alignStart="@+id/low_string"
+                    android:textAppearance="@style/full_day_info_name_txt"
                     android:text="OPEN" />
 
                 <TextView
                     android:id="@+id/open_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/low_value"
-                    android:layout_alignParentEnd="true"
+                    android:layout_alignTop="@+id/open_string"
+                    android:layout_alignEnd="@+id/low_value"
+                    android:textAppearance="@style/full_day_info_value_txt"
                     android:text="2163 USD" />
 
 
@@ -104,15 +114,17 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/open_string"
-                    android:layout_alignParentStart="true"
+                    android:layout_alignStart="@+id/open_string"
+                    android:textAppearance="@style/full_day_info_name_txt"
                     android:text="CLOSE" />
 
                 <TextView
                     android:id="@+id/close_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/open_value"
-                    android:layout_alignParentEnd="true"
+                    android:layout_alignTop="@+id/close_string"
+                    android:layout_alignEnd="@+id/open_value"
+                    android:textAppearance="@style/full_day_info_value_txt"
                     android:text="2163 USD" />
 
 
@@ -121,15 +133,17 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/close_string"
-                    android:layout_alignParentStart="true"
+                    android:layout_alignStart="@+id/close_string"
+                    android:textAppearance="@style/full_day_info_name_txt"
                     android:text="CHANGE" />
 
                 <TextView
                     android:id="@+id/change_value"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_below="@+id/close_value"
-                    android:layout_alignParentEnd="true"
+                    android:layout_alignTop="@+id/change_string"
+                    android:layout_alignEnd="@+id/close_value"
+                    android:textAppearance="@style/full_day_info_value_txt"
                     android:text="2163 USD" />
 
             </RelativeLayout>
