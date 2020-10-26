@@ -20,7 +20,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/bttn_yesterday" />
-
+        <Button
+            android:id="@+id/bttn_yeyesterday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/bttn_yeyesterday" />
 
     </LinearLayout>
 </layout>

@@ -41,6 +41,7 @@ class HourPriceViewModel : ViewModel() {
         limit: Int,
         ts: Long,
     ): Job {
+        Log.i("DATE_TAG4", ts.toString())
         return viewModelScope.launch {
             try {
                 var res =

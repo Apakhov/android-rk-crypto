@@ -24,7 +24,7 @@
     <string name="info_change_string">CHANGE</string>
 
     <string name="exchange_dummy">BTC/USD</string>
-    <string name="date_dummy">21 OCT 2020</string>
+    <string name="date_dummy">1 JAN 1970</string>
     <string name="info_high_string">HIGH</string>
     <string name="money_dummy">0</string>
     <string name="num_days_key">num_days_key</string>
@@ -42,4 +42,5 @@
     <string name="set_num_days_not_num">not a number in input</string>
     <string name="hourly_list_title">Daily List</string>
     <string name="bttn_yesterday">YESTERDAY</string>
+    <string name="bttn_yeyesterday">YEYESTERDAY</string>
 </resources>

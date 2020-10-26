@@ -54,6 +54,22 @@ class StartFragment : Fragment() {
                 "open" to 12133.4f,
                 "close" to 12100.4f,
             )
+            Log.i("DATE_TAG", (getCurrentDateTime().ts()-24*3600).toString())
+            it.findNavController().navigate(R.id.action_startFragment_to_listFragment, bundle)
+        }
+        binding.bttnYeyesterday.setOnClickListener {
+            val bundle = bundleOf(
+                "fsym" to "BTC",
+                "tsym" to "RUB",
+                "market" to "CCCAGG",
+                "limit" to 24,
+                "timestamp" to getCurrentDateTime().ts()-2*24*3600,
+                "high" to 12130.4f,
+                "low" to 12133.4f,
+                "open" to 12133.4f,
+                "close" to 12100.4f,
+            )
+            Log.i("DATE_TAG", (getCurrentDateTime().ts()-2*24*3600).toString())
             it.findNavController().navigate(R.id.action_startFragment_to_listFragment, bundle)
         }
         return binding.root

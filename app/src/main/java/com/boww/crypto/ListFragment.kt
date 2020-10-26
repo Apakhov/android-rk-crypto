@@ -83,6 +83,7 @@ class ListFragment : Fragment(),
     }
 
     fun refresh() {
+        Log.i("DATE_TAG3", ts.toString())
         model.refresh(
             fsym,
             tsym,
@@ -123,6 +124,7 @@ class ListFragment : Fragment(),
             getString(R.string.to_units_value_standard)
         )!!
 
+        Log.i("DATE_TAG2", ts.toString())
         Log.i(TAG, oldTsym + " " + tsym.toString() + " call refr " + ((oldFsym != fsym) || (oldTsym != tsym)).toString())
         if ((oldFsym != fsym) || (oldTsym != tsym)) {
             refresh()
@@ -130,8 +132,10 @@ class ListFragment : Fragment(),
         }
 
 
+
+
         makeSpanExchangeBar(fsym, tsym)
-        binding.dateString.text = ts.toDate().toString("dd MMM yyyy").toUpperCase()+" "+tsym // мне лень фиксить
+        binding.dateString.text = ts.toDate().toString("dd MMM yyyy").toUpperCase()
         binding.highValue.text = high.significant(6, 2)+" "+tsym // мне лень фиксить
         binding.lowValue.text = low.significant(6, 2)+" "+tsym // мне лень фиксить
         binding.openValue.text = open.significant(6, 2)+" "+tsym // мне лень фиксить
