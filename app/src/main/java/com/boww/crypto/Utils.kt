@@ -25,6 +25,7 @@ fun Float.significant(maxLen: Int = 5, maxLast: Int = 0): String {
     if (maxLast > 0 && p + maxLast > l) l = p + maxLast
 
     if (l > str.length) l = str.length
+    if (str[l - 1] == '.') l -= 1
     return str.substring(0, l)
 }
 

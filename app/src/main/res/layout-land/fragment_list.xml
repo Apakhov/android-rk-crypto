@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:context=".ListFragment">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="5"
+            tools:context=".ListFragment">
+
+            <TextView
+                android:id="@+id/daily_overview_str"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/full_day_info_left_margin"
+                android:gravity="start"
+                android:text="@string/daily_overview_str"
+                android:textAppearance="@style/full_day_list_header" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/hour_price_item_hour"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start"
+                    android:text="@string/hour_col_name"
+                    android:textAppearance="@style/full_day_info_daily_col_name_txt" />
+
+                <TextView
+                    android:id="@+id/hour_price_item_percent"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/percent_col_name"
+                    android:textAppearance="@style/full_day_info_daily_col_name_txt" />
+
+                <TextView
+                    android:id="@+id/hour_price_item_change"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/change_col_name"
+                    android:textAppearance="@style/full_day_info_daily_col_name_txt" />
+
+                <TextView
+                    android:id="@+id/hour_price_item_close"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="@string/close_col_name"
+                    android:textAppearance="@style/full_day_info_daily_col_name_txt" />
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/hour_price_item_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
+
+                tools:listitem="@layout/hour_price_item" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_weight="5"
+            android:background="@drawable/blue_rect"
+
+            tools:context=".ListFragment">
+
+            <TextView
+                android:id="@+id/exchange_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/full_day_info_left_margin"
+                android:layout_marginTop="@dimen/full_day_info_top_margin"
+                android:text="@string/exchange_dummy"
+                android:textAppearance="@style/full_day_info_exchange_txt" />
+
+            <TextView
+                android:id="@+id/date_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/exchange_string"
+                android:layout_alignStart="@+id/exchange_string"
+                android:text="@string/date_dummy"
+                android:textAppearance="@style/full_day_info_date_txt" />
+
+            <TextView
+                android:id="@+id/high_dot"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_alignTop="@+id/high_string"
+                android:layout_marginTop="9dp"
+                android:layout_toStartOf="@+id/high_string"
+                android:background="@drawable/oval" />
+
+            <TextView
+                android:id="@+id/high_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/date_string"
+                android:layout_alignStart="@+id/date_string"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="@string/info_high_string"
+                android:textAppearance="@style/full_day_info_name_txt" />
+
+
+            <TextView
+                android:id="@+id/high_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/high_string"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/full_day_info_right_margin"
+                android:text="@string/money_dummy"
+                android:textAppearance="@style/full_day_info_value_txt" />
+
+            <TextView
+                android:id="@+id/low_dot"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_alignStart="@+id/high_dot"
+                android:layout_alignTop="@+id/low_string"
+                android:layout_marginTop="9dp"
+                android:background="@drawable/oval" />
+
+            <TextView
+                android:id="@+id/low_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/high_string"
+                android:layout_alignStart="@+id/high_string"
+                android:text="@string/info_low_string"
+                android:textAppearance="@style/full_day_info_name_txt" />
+
+            <TextView
+                android:id="@+id/low_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/low_string"
+                android:layout_alignEnd="@+id/high_value"
+                android:text="@string/money_dummy"
+                android:textAppearance="@style/full_day_info_value_txt" />
+
+            <TextView
+                android:id="@+id/open_dot"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_alignStart="@+id/low_dot"
+                android:layout_alignTop="@+id/open_string"
+                android:layout_marginTop="9dp"
+                android:background="@drawable/oval" />
+
+            <TextView
+                android:id="@+id/open_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/low_string"
+                android:layout_alignStart="@+id/low_string"
+                android:text="@string/info_open_string"
+                android:textAppearance="@style/full_day_info_name_txt" />
+
+            <TextView
+                android:id="@+id/open_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/open_string"
+                android:layout_alignEnd="@+id/low_value"
+                android:text="@string/money_dummy"
+                android:textAppearance="@style/full_day_info_value_txt" />
+
+            <TextView
+                android:id="@+id/close_dot"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_alignStart="@+id/open_dot"
+                android:layout_alignTop="@+id/close_string"
+                android:layout_marginTop="9dp"
+                android:background="@drawable/oval" />
+
+            <TextView
+                android:id="@+id/close_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/open_string"
+                android:layout_alignStart="@+id/open_string"
+                android:text="@string/info_close_string"
+                android:textAppearance="@style/full_day_info_name_txt" />
+
+            <TextView
+                android:id="@+id/close_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/close_string"
+                android:layout_alignEnd="@+id/open_value"
+                android:text="@string/money_dummy"
+                android:textAppearance="@style/full_day_info_value_txt" />
+
+            <TextView
+                android:id="@+id/change_dot"
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:layout_alignStart="@+id/close_dot"
+                android:layout_alignTop="@+id/change_string"
+                android:layout_marginTop="9dp"
+                android:background="@drawable/oval" />
+
+            <TextView
+                android:id="@+id/change_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/close_string"
+                android:layout_alignStart="@+id/close_string"
+                android:text="@string/info_change_string"
+                android:textAppearance="@style/full_day_info_name_txt" />
+
+            <TextView
+                android:id="@+id/change_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/change_string"
+                android:layout_alignEnd="@+id/close_value"
+                android:text="@string/money_dummy"
+                android:textAppearance="@style/full_day_info_value_txt" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</layout>
