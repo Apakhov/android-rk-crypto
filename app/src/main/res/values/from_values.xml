@@ -1,0 +1,1612 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="from_units_array_values">
+        <item>@string/units_name_ABYSS</item>
+        <item>@string/units_name_ACCN</item>
+        <item>@string/units_name_ACE</item>
+        <item>@string/units_name_ADA</item>
+        <item>@string/units_name_ADB</item>
+        <item>@string/units_name_ADH</item>
+        <item>@string/units_name_ADI</item>
+        <item>@string/units_name_ADL</item>
+        <item>@string/units_name_ADT</item>
+        <item>@string/units_name_ADX</item>
+        <item>@string/units_name_AE</item>
+        <item>@string/units_name_AEN</item>
+        <item>@string/units_name_AERGO</item>
+        <item>@string/units_name_AGI</item>
+        <item>@string/units_name_AGVC</item>
+        <item>@string/units_name_AID</item>
+        <item>@string/units_name_AIDOC</item>
+        <item>@string/units_name_AIT</item>
+        <item>@string/units_name_AIX</item>
+        <item>@string/units_name_ALIS</item>
+        <item>@string/units_name_ALX</item>
+        <item>@string/units_name_AMB</item>
+        <item>@string/units_name_AMLT</item>
+        <item>@string/units_name_AMM</item>
+        <item>@string/units_name_AMN</item>
+        <item>@string/units_name_AMO</item>
+        <item>@string/units_name_ANKR</item>
+        <item>@string/units_name_ANT</item>
+        <item>@string/units_name_AOA</item>
+        <item>@string/units_name_APIS</item>
+        <item>@string/units_name_APPC</item>
+        <item>@string/units_name_ARAW</item>
+        <item>@string/units_name_ARBT</item>
+        <item>@string/units_name_ARCT</item>
+        <item>@string/units_name_ARN</item>
+        <item>@string/units_name_ART</item>
+        <item>@string/units_name_ARY</item>
+        <item>@string/units_name_AST</item>
+        <item>@string/units_name_ASTO</item>
+        <item>@string/units_name_ATL</item>
+        <item>@string/units_name_ATM</item>
+        <item>@string/units_name_ATMI</item>
+        <item>@string/units_name_ATS</item>
+        <item>@string/units_name_AUC</item>
+        <item>@string/units_name_AVH</item>
+        <item>@string/units_name_AVT</item>
+        <item>@string/units_name_AWC</item>
+        <item>@string/units_name_AXPR</item>
+        <item>@string/units_name_B2B</item>
+        <item>@string/units_name_BAAS</item>
+        <item>@string/units_name_BANCA</item>
+        <item>@string/units_name_BAT</item>
+        <item>@string/units_name_BAX</item>
+        <item>@string/units_name_BBC</item>
+        <item>@string/units_name_BBO</item>
+        <item>@string/units_name_BCAP</item>
+        <item>@string/units_name_BCDN</item>
+        <item>@string/units_name_BCDT</item>
+        <item>@string/units_name_BCH</item>
+        <item>@string/units_name_BCPT</item>
+        <item>@string/units_name_BDG</item>
+        <item>@string/units_name_BEAT</item>
+        <item>@string/units_name_BEE</item>
+        <item>@string/units_name_BELA</item>
+        <item>@string/units_name_BERRY</item>
+        <item>@string/units_name_BETHER</item>
+        <item>@string/units_name_BETR</item>
+        <item>@string/units_name_BEZ</item>
+        <item>@string/units_name_BFT</item>
+        <item>@string/units_name_BGG</item>
+        <item>@string/units_name_BIO</item>
+        <item>@string/units_name_BITX</item>
+        <item>@string/units_name_BIX</item>
+        <item>@string/units_name_BKX</item>
+        <item>@string/units_name_BLNM</item>
+        <item>@string/units_name_BLOC</item>
+        <item>@string/units_name_BLT</item>
+        <item>@string/units_name_BLZ</item>
+        <item>@string/units_name_BMC</item>
+        <item>@string/units_name_BMH</item>
+        <item>@string/units_name_BMX</item>
+        <item>@string/units_name_BNK</item>
+        <item>@string/units_name_BNN</item>
+        <item>@string/units_name_BNT</item>
+        <item>@string/units_name_BNTY</item>
+        <item>@string/units_name_BOB</item>
+        <item>@string/units_name_BOE</item>
+        <item>@string/units_name_BOLT</item>
+        <item>@string/units_name_BOLTT</item>
+        <item>@string/units_name_BON</item>
+        <item>@string/units_name_BOT</item>
+        <item>@string/units_name_BOUTS</item>
+        <item>@string/units_name_BOX</item>
+        <item>@string/units_name_BPT</item>
+        <item>@string/units_name_BPX</item>
+        <item>@string/units_name_BQ</item>
+        <item>@string/units_name_BQTX</item>
+        <item>@string/units_name_BRAT</item>
+        <item>@string/units_name_BRD</item>
+        <item>@string/units_name_BSTN</item>
+        <item>@string/units_name_BSV</item>
+        <item>@string/units_name_BTC</item>
+        <item>@string/units_name_BTCL</item>
+        <item>@string/units_name_BTCM</item>
+        <item>@string/units_name_BTCRED</item>
+        <item>@string/units_name_BTM</item>
+        <item>@string/units_name_BTMX</item>
+        <item>@string/units_name_BTO</item>
+        <item>@string/units_name_BTRN</item>
+        <item>@string/units_name_BTU</item>
+        <item>@string/units_name_BUBO</item>
+        <item>@string/units_name_BUD</item>
+        <item>@string/units_name_BWT</item>
+        <item>@string/units_name_BZ</item>
+        <item>@string/units_name_BZKY</item>
+        <item>@string/units_name_BZNT</item>
+        <item>@string/units_name_C20</item>
+        <item>@string/units_name_CAG</item>
+        <item>@string/units_name_CAN</item>
+        <item>@string/units_name_CANDY</item>
+        <item>@string/units_name_CAPP</item>
+        <item>@string/units_name_CAR</item>
+        <item>@string/units_name_CARAT</item>
+        <item>@string/units_name_CARD</item>
+        <item>@string/units_name_CBC</item>
+        <item>@string/units_name_CBT</item>
+        <item>@string/units_name_CCCX</item>
+        <item>@string/units_name_CCL</item>
+        <item>@string/units_name_CCO</item>
+        <item>@string/units_name_CCRB</item>
+        <item>@string/units_name_CCT</item>
+        <item>@string/units_name_CDT</item>
+        <item>@string/units_name_CDX</item>
+        <item>@string/units_name_CEDEX</item>
+        <item>@string/units_name_CEEK</item>
+        <item>@string/units_name_CEL</item>
+        <item>@string/units_name_CELR</item>
+        <item>@string/units_name_CEN</item>
+        <item>@string/units_name_CENNZ</item>
+        <item>@string/units_name_CET</item>
+        <item>@string/units_name_CHAT</item>
+        <item>@string/units_name_CHP</item>
+        <item>@string/units_name_CHSB</item>
+        <item>@string/units_name_CHT</item>
+        <item>@string/units_name_CHX</item>
+        <item>@string/units_name_CJT</item>
+        <item>@string/units_name_CL</item>
+        <item>@string/units_name_CLN</item>
+        <item>@string/units_name_CMCT</item>
+        <item>@string/units_name_CMS</item>
+        <item>@string/units_name_CMT</item>
+        <item>@string/units_name_CND</item>
+        <item>@string/units_name_CNN</item>
+        <item>@string/units_name_CNX</item>
+        <item>@string/units_name_COB</item>
+        <item>@string/units_name_COFI</item>
+        <item>@string/units_name_COIN</item>
+        <item>@string/units_name_CONI</item>
+        <item>@string/units_name_COSM</item>
+        <item>@string/units_name_COT</item>
+        <item>@string/units_name_COU</item>
+        <item>@string/units_name_COV</item>
+        <item>@string/units_name_COVA</item>
+        <item>@string/units_name_CPAY</item>
+        <item>@string/units_name_CPCH</item>
+        <item>@string/units_name_CPT</item>
+        <item>@string/units_name_CPY</item>
+        <item>@string/units_name_CRB</item>
+        <item>@string/units_name_CRDS</item>
+        <item>@string/units_name_CRED</item>
+        <item>@string/units_name_CREDO</item>
+        <item>@string/units_name_CRO</item>
+        <item>@string/units_name_CRPT</item>
+        <item>@string/units_name_CRYC</item>
+        <item>@string/units_name_CSEN</item>
+        <item>@string/units_name_CSM</item>
+        <item>@string/units_name_CSNO</item>
+        <item>@string/units_name_CSP</item>
+        <item>@string/units_name_CTXC</item>
+        <item>@string/units_name_CUBE</item>
+        <item>@string/units_name_CV</item>
+        <item>@string/units_name_CVC</item>
+        <item>@string/units_name_CVT</item>
+        <item>@string/units_name_CXO</item>
+        <item>@string/units_name_DACC</item>
+        <item>@string/units_name_DADI</item>
+        <item>@string/units_name_DAG</item>
+        <item>@string/units_name_DAGT</item>
+        <item>@string/units_name_DAI</item>
+        <item>@string/units_name_DAN</item>
+        <item>@string/units_name_DAOC</item>
+        <item>@string/units_name_DAPS</item>
+        <item>@string/units_name_DASH</item>
+        <item>@string/units_name_DAT</item>
+        <item>@string/units_name_DATA</item>
+        <item>@string/units_name_DATX</item>
+        <item>@string/units_name_DAV</item>
+        <item>@string/units_name_DAX</item>
+        <item>@string/units_name_DAY</item>
+        <item>@string/units_name_DBET</item>
+        <item>@string/units_name_DCN</item>
+        <item>@string/units_name_DDD</item>
+        <item>@string/units_name_DEB</item>
+        <item>@string/units_name_DEC</item>
+        <item>@string/units_name_DENT</item>
+        <item>@string/units_name_DFXT</item>
+        <item>@string/units_name_DGD</item>
+        <item>@string/units_name_DGTX</item>
+        <item>@string/units_name_DGX</item>
+        <item>@string/units_name_DICE</item>
+        <item>@string/units_name_DIG</item>
+        <item>@string/units_name_DIO</item>
+        <item>@string/units_name_DLT</item>
+        <item>@string/units_name_DML</item>
+        <item>@string/units_name_DMT</item>
+        <item>@string/units_name_DNA</item>
+        <item>@string/units_name_DNT</item>
+        <item>@string/units_name_DOCK</item>
+        <item>@string/units_name_DOGE</item>
+        <item>@string/units_name_DOOH</item>
+        <item>@string/units_name_DOV</item>
+        <item>@string/units_name_DOW</item>
+        <item>@string/units_name_DPY</item>
+        <item>@string/units_name_DRG</item>
+        <item>@string/units_name_DRGN</item>
+        <item>@string/units_name_DROP</item>
+        <item>@string/units_name_DRPU</item>
+        <item>@string/units_name_DRT</item>
+        <item>@string/units_name_DTH</item>
+        <item>@string/units_name_DTR</item>
+        <item>@string/units_name_DTRC</item>
+        <item>@string/units_name_DTX</item>
+        <item>@string/units_name_DXT</item>
+        <item>@string/units_name_EARTH</item>
+        <item>@string/units_name_EBC</item>
+        <item>@string/units_name_EBTC</item>
+        <item>@string/units_name_ECASH</item>
+        <item>@string/units_name_ECHT</item>
+        <item>@string/units_name_ECOM</item>
+        <item>@string/units_name_ECTE</item>
+        <item>@string/units_name_EDG</item>
+        <item>@string/units_name_EDN</item>
+        <item>@string/units_name_EDO</item>
+        <item>@string/units_name_EDU</item>
+        <item>@string/units_name_EGCC</item>
+        <item>@string/units_name_EGT</item>
+        <item>@string/units_name_EKO</item>
+        <item>@string/units_name_EKT</item>
+        <item>@string/units_name_ELEC</item>
+        <item>@string/units_name_ELF</item>
+        <item>@string/units_name_ELI</item>
+        <item>@string/units_name_ELITE</item>
+        <item>@string/units_name_ELIX</item>
+        <item>@string/units_name_ELTCOIN</item>
+        <item>@string/units_name_ELY</item>
+        <item>@string/units_name_EMPH</item>
+        <item>@string/units_name_ENGT</item>
+        <item>@string/units_name_ENJ</item>
+        <item>@string/units_name_ENTER</item>
+        <item>@string/units_name_EOSDAC</item>
+        <item>@string/units_name_EQUAL</item>
+        <item>@string/units_name_ERC20</item>
+        <item>@string/units_name_ERIS</item>
+        <item>@string/units_name_ERO</item>
+        <item>@string/units_name_ESS</item>
+        <item>@string/units_name_EST</item>
+        <item>@string/units_name_ESZ</item>
+        <item>@string/units_name_ETBS</item>
+        <item>@string/units_name_ETC</item>
+        <item>@string/units_name_ETG</item>
+        <item>@string/units_name_ETGP</item>
+        <item>@string/units_name_ETH</item>
+        <item>@string/units_name_ETHM</item>
+        <item>@string/units_name_ETHOS</item>
+        <item>@string/units_name_ETK</item>
+        <item>@string/units_name_ETN</item>
+        <item>@string/units_name_EURS</item>
+        <item>@string/units_name_EVC</item>
+        <item>@string/units_name_EVE</item>
+        <item>@string/units_name_EVED</item>
+        <item>@string/units_name_EVR</item>
+        <item>@string/units_name_EVX</item>
+        <item>@string/units_name_EXC</item>
+        <item>@string/units_name_EXMR</item>
+        <item>@string/units_name_EXRN</item>
+        <item>@string/units_name_EXY</item>
+        <item>@string/units_name_FACE</item>
+        <item>@string/units_name_FAIRG</item>
+        <item>@string/units_name_FAT</item>
+        <item>@string/units_name_FDX</item>
+        <item>@string/units_name_FDZ</item>
+        <item>@string/units_name_FET</item>
+        <item>@string/units_name_FLIK</item>
+        <item>@string/units_name_FLIXX</item>
+        <item>@string/units_name_FLOT</item>
+        <item>@string/units_name_FLUZ</item>
+        <item>@string/units_name_FND</item>
+        <item>@string/units_name_FNTB</item>
+        <item>@string/units_name_FOAM</item>
+        <item>@string/units_name_FOTA</item>
+        <item>@string/units_name_FOXT</item>
+        <item>@string/units_name_FREC</item>
+        <item>@string/units_name_FREE</item>
+        <item>@string/units_name_FSN</item>
+        <item>@string/units_name_FT</item>
+        <item>@string/units_name_FTM</item>
+        <item>@string/units_name_FTT</item>
+        <item>@string/units_name_FTX</item>
+        <item>@string/units_name_FUEL</item>
+        <item>@string/units_name_FUN</item>
+        <item>@string/units_name_FUNDZ</item>
+        <item>@string/units_name_FXT</item>
+        <item>@string/units_name_FYP</item>
+        <item>@string/units_name_GAMB</item>
+        <item>@string/units_name_GARD</item>
+        <item>@string/units_name_GEM</item>
+        <item>@string/units_name_GENE</item>
+        <item>@string/units_name_GENS</item>
+        <item>@string/units_name_GETX</item>
+        <item>@string/units_name_GNO</item>
+        <item>@string/units_name_GNT</item>
+        <item>@string/units_name_GNX</item>
+        <item>@string/units_name_GOOD</item>
+        <item>@string/units_name_GRID</item>
+        <item>@string/units_name_GRMD</item>
+        <item>@string/units_name_GRX</item>
+        <item>@string/units_name_GSC</item>
+        <item>@string/units_name_GST</item>
+        <item>@string/units_name_GTC</item>
+        <item>@string/units_name_GTO</item>
+        <item>@string/units_name_GUESS</item>
+        <item>@string/units_name_GUP</item>
+        <item>@string/units_name_GUSD</item>
+        <item>@string/units_name_GVE</item>
+        <item>@string/units_name_GVT</item>
+        <item>@string/units_name_HAND</item>
+        <item>@string/units_name_HB</item>
+        <item>@string/units_name_HBT</item>
+        <item>@string/units_name_HBZ</item>
+        <item>@string/units_name_HEDG</item>
+        <item>@string/units_name_HER</item>
+        <item>@string/units_name_HERO</item>
+        <item>@string/units_name_HGT</item>
+        <item>@string/units_name_HIT</item>
+        <item>@string/units_name_HKN</item>
+        <item>@string/units_name_HMC</item>
+        <item>@string/units_name_HMQ</item>
+        <item>@string/units_name_HORSE</item>
+        <item>@string/units_name_HPB</item>
+        <item>@string/units_name_HPT</item>
+        <item>@string/units_name_HQT</item>
+        <item>@string/units_name_HQX</item>
+        <item>@string/units_name_HSC</item>
+        <item>@string/units_name_HST</item>
+        <item>@string/units_name_HT</item>
+        <item>@string/units_name_HUR</item>
+        <item>@string/units_name_HVN</item>
+        <item>@string/units_name_HYDRO</item>
+        <item>@string/units_name_HYT</item>
+        <item>@string/units_name_ICHX</item>
+        <item>@string/units_name_ICN</item>
+        <item>@string/units_name_ICON</item>
+        <item>@string/units_name_IDEX</item>
+        <item>@string/units_name_IDH</item>
+        <item>@string/units_name_IDT</item>
+        <item>@string/units_name_IDXM</item>
+        <item>@string/units_name_IETH</item>
+        <item>@string/units_name_IFT</item>
+        <item>@string/units_name_IG</item>
+        <item>@string/units_name_IHF</item>
+        <item>@string/units_name_IHT</item>
+        <item>@string/units_name_IMT</item>
+        <item>@string/units_name_IND</item>
+        <item>@string/units_name_ING</item>
+        <item>@string/units_name_INS</item>
+        <item>@string/units_name_INSTAR</item>
+        <item>@string/units_name_INT</item>
+        <item>@string/units_name_INVC</item>
+        <item>@string/units_name_INX</item>
+        <item>@string/units_name_INXT</item>
+        <item>@string/units_name_IOST</item>
+        <item>@string/units_name_IOTX</item>
+        <item>@string/units_name_IPC</item>
+        <item>@string/units_name_IPSX</item>
+        <item>@string/units_name_IQN</item>
+        <item>@string/units_name_ISR</item>
+        <item>@string/units_name_ITC</item>
+        <item>@string/units_name_ITL</item>
+        <item>@string/units_name_ITT</item>
+        <item>@string/units_name_IVY</item>
+        <item>@string/units_name_IXT</item>
+        <item>@string/units_name_J8T</item>
+        <item>@string/units_name_JC</item>
+        <item>@string/units_name_JET</item>
+        <item>@string/units_name_JNT</item>
+        <item>@string/units_name_JOINT</item>
+        <item>@string/units_name_JSE</item>
+        <item>@string/units_name_KAN</item>
+        <item>@string/units_name_KBC</item>
+        <item>@string/units_name_KCASH</item>
+        <item>@string/units_name_KCS</item>
+        <item>@string/units_name_KEY</item>
+        <item>@string/units_name_KICK</item>
+        <item>@string/units_name_KIN</item>
+        <item>@string/units_name_KIND</item>
+        <item>@string/units_name_KNC</item>
+        <item>@string/units_name_KRL</item>
+        <item>@string/units_name_KUE</item>
+        <item>@string/units_name_KWH</item>
+        <item>@string/units_name_LA</item>
+        <item>@string/units_name_LALA</item>
+        <item>@string/units_name_LAMB</item>
+        <item>@string/units_name_LATX</item>
+        <item>@string/units_name_LCS</item>
+        <item>@string/units_name_LDC</item>
+        <item>@string/units_name_LEDU</item>
+        <item>@string/units_name_LEND</item>
+        <item>@string/units_name_LEV</item>
+        <item>@string/units_name_LGO</item>
+        <item>@string/units_name_LIF</item>
+        <item>@string/units_name_LIFE</item>
+        <item>@string/units_name_LIKE</item>
+        <item>@string/units_name_LINA</item>
+        <item>@string/units_name_LINK</item>
+        <item>@string/units_name_LION</item>
+        <item>@string/units_name_LNC</item>
+        <item>@string/units_name_LND</item>
+        <item>@string/units_name_LOCI</item>
+        <item>@string/units_name_LOCK</item>
+        <item>@string/units_name_LOOM</item>
+        <item>@string/units_name_LPT</item>
+        <item>@string/units_name_LQDN</item>
+        <item>@string/units_name_LRC</item>
+        <item>@string/units_name_LST</item>
+        <item>@string/units_name_LTC</item>
+        <item>@string/units_name_LTO</item>
+        <item>@string/units_name_LUC</item>
+        <item>@string/units_name_LUN</item>
+        <item>@string/units_name_LYM</item>
+        <item>@string/units_name_M2O</item>
+        <item>@string/units_name_MANA</item>
+        <item>@string/units_name_MATIC</item>
+        <item>@string/units_name_MBTX</item>
+        <item>@string/units_name_MCO</item>
+        <item>@string/units_name_MDA</item>
+        <item>@string/units_name_MDCL</item>
+        <item>@string/units_name_MDS</item>
+        <item>@string/units_name_MEDX</item>
+        <item>@string/units_name_MEE</item>
+        <item>@string/units_name_MENLO</item>
+        <item>@string/units_name_META</item>
+        <item>@string/units_name_METAL</item>
+        <item>@string/units_name_METM</item>
+        <item>@string/units_name_MFG</item>
+        <item>@string/units_name_MFT</item>
+        <item>@string/units_name_MGO</item>
+        <item>@string/units_name_MIC</item>
+        <item>@string/units_name_MITH</item>
+        <item>@string/units_name_MITX</item>
+        <item>@string/units_name_MIXI</item>
+        <item>@string/units_name_MKR</item>
+        <item>@string/units_name_MLN</item>
+        <item>@string/units_name_MNC</item>
+        <item>@string/units_name_MNE</item>
+        <item>@string/units_name_MNTP</item>
+        <item>@string/units_name_MOAC</item>
+        <item>@string/units_name_MOF</item>
+        <item>@string/units_name_MOLK</item>
+        <item>@string/units_name_MOT</item>
+        <item>@string/units_name_MRK</item>
+        <item>@string/units_name_MRPH</item>
+        <item>@string/units_name_MTC</item>
+        <item>@string/units_name_MTH</item>
+        <item>@string/units_name_MTKN</item>
+        <item>@string/units_name_MTRC</item>
+        <item>@string/units_name_MTX</item>
+        <item>@string/units_name_MVL</item>
+        <item>@string/units_name_MWAT</item>
+        <item>@string/units_name_MXAI</item>
+        <item>@string/units_name_MXM</item>
+        <item>@string/units_name_MYB</item>
+        <item>@string/units_name_MYST</item>
+        <item>@string/units_name_NANJ</item>
+        <item>@string/units_name_NAS</item>
+        <item>@string/units_name_NAVI</item>
+        <item>@string/units_name_NBAI</item>
+        <item>@string/units_name_NBC</item>
+        <item>@string/units_name_NCASH</item>
+        <item>@string/units_name_NCC</item>
+        <item>@string/units_name_NCT</item>
+        <item>@string/units_name_NEC</item>
+        <item>@string/units_name_NEU</item>
+        <item>@string/units_name_NEXO</item>
+        <item>@string/units_name_NEXT</item>
+        <item>@string/units_name_NGC</item>
+        <item>@string/units_name_NIO</item>
+        <item>@string/units_name_NMR</item>
+        <item>@string/units_name_NOAH</item>
+        <item>@string/units_name_NOBS</item>
+        <item>@string/units_name_NOKU</item>
+        <item>@string/units_name_NOX</item>
+        <item>@string/units_name_NPER</item>
+        <item>@string/units_name_NPX</item>
+        <item>@string/units_name_NPXS</item>
+        <item>@string/units_name_NRG</item>
+        <item>@string/units_name_NRP</item>
+        <item>@string/units_name_NTK</item>
+        <item>@string/units_name_NULS</item>
+        <item>@string/units_name_NXC</item>
+        <item>@string/units_name_OAX</item>
+        <item>@string/units_name_OCN</item>
+        <item>@string/units_name_ODE</item>
+        <item>@string/units_name_OIO</item>
+        <item>@string/units_name_OKB</item>
+        <item>@string/units_name_OLE</item>
+        <item>@string/units_name_OLT</item>
+        <item>@string/units_name_OMG</item>
+        <item>@string/units_name_OMX</item>
+        <item>@string/units_name_ONG</item>
+        <item>@string/units_name_ONL</item>
+        <item>@string/units_name_OPEN</item>
+        <item>@string/units_name_OPT</item>
+        <item>@string/units_name_ORBS</item>
+        <item>@string/units_name_ORI</item>
+        <item>@string/units_name_ORME</item>
+        <item>@string/units_name_ORS</item>
+        <item>@string/units_name_OSA</item>
+        <item>@string/units_name_OST</item>
+        <item>@string/units_name_PAL</item>
+        <item>@string/units_name_PARETO</item>
+        <item>@string/units_name_PASS</item>
+        <item>@string/units_name_PAT</item>
+        <item>@string/units_name_PAX</item>
+        <item>@string/units_name_PAY</item>
+        <item>@string/units_name_PCH</item>
+        <item>@string/units_name_PCL</item>
+        <item>@string/units_name_PCO</item>
+        <item>@string/units_name_PFR</item>
+        <item>@string/units_name_PHI</item>
+        <item>@string/units_name_PIX</item>
+        <item>@string/units_name_PKT</item>
+        <item>@string/units_name_PLA</item>
+        <item>@string/units_name_PLAY</item>
+        <item>@string/units_name_PLBT</item>
+        <item>@string/units_name_PLR</item>
+        <item>@string/units_name_PLU</item>
+        <item>@string/units_name_PMA</item>
+        <item>@string/units_name_PMNT</item>
+        <item>@string/units_name_PNT</item>
+        <item>@string/units_name_POE</item>
+        <item>@string/units_name_POLL</item>
+        <item>@string/units_name_POLY</item>
+        <item>@string/units_name_POWR</item>
+        <item>@string/units_name_PPP</item>
+        <item>@string/units_name_PPT</item>
+        <item>@string/units_name_PRA</item>
+        <item>@string/units_name_PRG</item>
+        <item>@string/units_name_PRIX</item>
+        <item>@string/units_name_PRO</item>
+        <item>@string/units_name_PSM</item>
+        <item>@string/units_name_PST</item>
+        <item>@string/units_name_PTOY</item>
+        <item>@string/units_name_PXG</item>
+        <item>@string/units_name_PYLNT</item>
+        <item>@string/units_name_PYN</item>
+        <item>@string/units_name_QASH</item>
+        <item>@string/units_name_QBIT</item>
+        <item>@string/units_name_QCX</item>
+        <item>@string/units_name_QKC</item>
+        <item>@string/units_name_QNTU</item>
+        <item>@string/units_name_QSP</item>
+        <item>@string/units_name_QUANT</item>
+        <item>@string/units_name_QUN</item>
+        <item>@string/units_name_QUSD</item>
+        R
+        <item>@string/units_name_RCN</item>
+        <item>@string/units_name_RCT</item>
+        <item>@string/units_name_RDC</item>
+        <item>@string/units_name_RDD</item>
+        <item>@string/units_name_REAL</item>
+        <item>@string/units_name_REBL</item>
+        <item>@string/units_name_REF</item>
+        <item>@string/units_name_REM</item>
+        <item>@string/units_name_REP</item>
+        <item>@string/units_name_REQ</item>
+        <item>@string/units_name_REX</item>
+        <item>@string/units_name_RFR</item>
+        <item>@string/units_name_RHOC</item>
+        <item>@string/units_name_RIYA</item>
+        <item>@string/units_name_RLC</item>
+        <item>@string/units_name_RLX</item>
+        <item>@string/units_name_RMESH</item>
+        <item>@string/units_name_RNT</item>
+        <item>@string/units_name_RNTB</item>
+        <item>@string/units_name_ROBET</item>
+        <item>@string/units_name_ROCK</item>
+        <item>@string/units_name_ROX</item>
+        <item>@string/units_name_RRC</item>
+        <item>@string/units_name_RTE</item>
+        <item>@string/units_name_RUFF</item>
+        <item>@string/units_name_RVT</item>
+        <item>@string/units_name_SAL</item>
+        <item>@string/units_name_SALT</item>
+        <item>@string/units_name_SAN</item>
+        <item>@string/units_name_SCC</item>
+        <item>@string/units_name_SCL</item>
+        <item>@string/units_name_SCRL</item>
+        <item>@string/units_name_SEAL</item>
+        <item>@string/units_name_SEELE</item>
+        <item>@string/units_name_SENC</item>
+        <item>@string/units_name_SENT</item>
+        <item>@string/units_name_SETH</item>
+        <item>@string/units_name_SGN</item>
+        <item>@string/units_name_SGR</item>
+        <item>@string/units_name_SHE</item>
+        <item>@string/units_name_SHIP</item>
+        <item>@string/units_name_SHOW</item>
+        <item>@string/units_name_SHP</item>
+        <item>@string/units_name_SHPING</item>
+        <item>@string/units_name_SKIN</item>
+        <item>@string/units_name_SKM</item>
+        <item>@string/units_name_SKRB</item>
+        <item>@string/units_name_SLT</item>
+        <item>@string/units_name_SMT</item>
+        <item>@string/units_name_SNC</item>
+        <item>@string/units_name_SNGLS</item>
+        <item>@string/units_name_SNIP</item>
+        <item>@string/units_name_SNM</item>
+        <item>@string/units_name_SNOV</item>
+        <item>@string/units_name_SNPC</item>
+        <item>@string/units_name_SNS</item>
+        <item>@string/units_name_SNT</item>
+        <item>@string/units_name_SNTR</item>
+        <item>@string/units_name_SNTVT</item>
+        <item>@string/units_name_SNX</item>
+        <item>@string/units_name_SOAR</item>
+        <item>@string/units_name_SOC</item>
+        <item>@string/units_name_SOLVE</item>
+        <item>@string/units_name_SOMA</item>
+        <item>@string/units_name_SPANK</item>
+        <item>@string/units_name_SPF</item>
+        <item>@string/units_name_SPHTX</item>
+        <item>@string/units_name_SPT</item>
+        <item>@string/units_name_SPX</item>
+        <item>@string/units_name_SRCH</item>
+        <item>@string/units_name_SRCOIN</item>
+        <item>@string/units_name_SRN</item>
+        <item>@string/units_name_SS</item>
+        <item>@string/units_name_STAC</item>
+        <item>@string/units_name_STACS</item>
+        <item>@string/units_name_STAR</item>
+        <item>@string/units_name_STASH</item>
+        <item>@string/units_name_STC</item>
+        <item>@string/units_name_STK</item>
+        <item>@string/units_name_STORJ</item>
+        <item>@string/units_name_STORM</item>
+        <item>@string/units_name_STQ</item>
+        <item>@string/units_name_STU</item>
+        <item>@string/units_name_STX</item>
+        <item>@string/units_name_SUB</item>
+        <item>@string/units_name_SUR</item>
+        <item>@string/units_name_SUSD</item>
+        <item>@string/units_name_SVD</item>
+        <item>@string/units_name_SWARM</item>
+        <item>@string/units_name_SWC</item>
+        <item>@string/units_name_SWFTC</item>
+        <item>@string/units_name_SWT</item>
+        <item>@string/units_name_SXDT</item>
+        <item>@string/units_name_SXUT</item>
+        <item>@string/units_name_TAAS</item>
+        <item>@string/units_name_TBX</item>
+        <item>@string/units_name_TCH</item>
+        <item>@string/units_name_TCT</item>
+        <item>@string/units_name_TDP</item>
+        <item>@string/units_name_TDS</item>
+        <item>@string/units_name_TEL</item>
+        <item>@string/units_name_TEN</item>
+        <item>@string/units_name_TFD</item>
+        <item>@string/units_name_TFL</item>
+        <item>@string/units_name_TFUEL</item>
+        <item>@string/units_name_TGAME</item>
+        <item>@string/units_name_TGT</item>
+        <item>@string/units_name_THETA</item>
+        <item>@string/units_name_THR</item>
+        <item>@string/units_name_THRT</item>
+        <item>@string/units_name_TIE</item>
+        <item>@string/units_name_TIG</item>
+        <item>@string/units_name_TIOX</item>
+        <item>@string/units_name_TIX</item>
+        <item>@string/units_name_TKN</item>
+        <item>@string/units_name_TMT</item>
+        <item>@string/units_name_TMTG</item>
+        <item>@string/units_name_TNB</item>
+        <item>@string/units_name_TNT</item>
+        <item>@string/units_name_TOMO</item>
+        <item>@string/units_name_TOPC</item>
+        <item>@string/units_name_TRAC</item>
+        <item>@string/units_name_TRAK</item>
+        <item>@string/units_name_TRCT</item>
+        <item>@string/units_name_TRDT</item>
+        <item>@string/units_name_TRIO</item>
+        <item>@string/units_name_TRST</item>
+        <item>@string/units_name_TRUE</item>
+        <item>@string/units_name_TSL</item>
+        <item>@string/units_name_TTC</item>
+        <item>@string/units_name_TTV</item>
+        <item>@string/units_name_TUSD</item>
+        <item>@string/units_name_UBC</item>
+        <item>@string/units_name_UBEX</item>
+        <item>@string/units_name_UBT</item>
+        <item>@string/units_name_UCT</item>
+        <item>@string/units_name_UDOO</item>
+        <item>@string/units_name_UFR</item>
+        <item>@string/units_name_UGAS</item>
+        <item>@string/units_name_UGC</item>
+        <item>@string/units_name_UKG</item>
+        <item>@string/units_name_UP</item>
+        <item>@string/units_name_UPP</item>
+        <item>@string/units_name_UQC</item>
+        <item>@string/units_name_USDC</item>
+        <item>@string/units_name_USDS</item>
+        <item>@string/units_name_USDT</item>
+        <item>@string/units_name_USE</item>
+        <item>@string/units_name_UTK</item>
+        <item>@string/units_name_UTNP</item>
+        <item>@string/units_name_UTT</item>
+        <item>@string/units_name_UUU</item>
+        <item>@string/units_name_VEE</item>
+        <item>@string/units_name_VERI</item>
+        <item>@string/units_name_VEST</item>
+        <item>@string/units_name_VET</item>
+        <item>@string/units_name_VIBE</item>
+        <item>@string/units_name_VIDT</item>
+        <item>@string/units_name_VIN</item>
+        <item>@string/units_name_VIT</item>
+        <item>@string/units_name_VITE</item>
+        <item>@string/units_name_VIU</item>
+        <item>@string/units_name_VME</item>
+        <item>@string/units_name_VNX</item>
+        <item>@string/units_name_VOISE</item>
+        <item>@string/units_name_VRA</item>
+        <item>@string/units_name_VRS</item>
+        <item>@string/units_name_VSL</item>
+        <item>@string/units_name_VZT</item>
+        <item>@string/units_name_WAB</item>
+        <item>@string/units_name_WABI</item>
+        <item>@string/units_name_WAN</item>
+        <item>@string/units_name_WAND</item>
+        <item>@string/units_name_WAX</item>
+        <item>@string/units_name_WBTC</item>
+        <item>@string/units_name_WCOIN</item>
+        <item>@string/units_name_WEB</item>
+        <item>@string/units_name_WELL</item>
+        <item>@string/units_name_WETH</item>
+        <item>@string/units_name_WHEN</item>
+        <item>@string/units_name_WINGS</item>
+        <item>@string/units_name_WISH</item>
+        <item>@string/units_name_WIZ</item>
+        <item>@string/units_name_WPP</item>
+        <item>@string/units_name_WPR</item>
+        <item>@string/units_name_WRC</item>
+        <item>@string/units_name_WT</item>
+        <item>@string/units_name_WTC</item>
+        <item>@string/units_name_WTL</item>
+        <item>@string/units_name_WYS</item>
+        <item>@string/units_name_X8X</item>
+        <item>@string/units_name_XAUR</item>
+        <item>@string/units_name_XBASE</item>
+        <item>@string/units_name_XBB</item>
+        <item>@string/units_name_XBL</item>
+        <item>@string/units_name_XBX</item>
+        <item>@string/units_name_XCD</item>
+        <item>@string/units_name_XCLR</item>
+        <item>@string/units_name_XDCE</item>
+        <item>@string/units_name_XES</item>
+        <item>@string/units_name_XET</item>
+        <item>@string/units_name_XMX</item>
+        <item>@string/units_name_XNG</item>
+        <item>@string/units_name_XNK</item>
+        <item>@string/units_name_XOV</item>
+        <item>@string/units_name_XPAT</item>
+        <item>@string/units_name_XUC</item>
+        <item>@string/units_name_XYO</item>
+        <item>@string/units_name_XZC</item>
+        <item>@string/units_name_YEE</item>
+        <item>@string/units_name_YOYOW</item>
+        <item>@string/units_name_YUP</item>
+        <item>@string/units_name_ZAP</item>
+        <item>@string/units_name_ZCN</item>
+        <item>@string/units_name_ZCO</item>
+        <item>@string/units_name_ZEC</item>
+        <item>@string/units_name_ZEON</item>
+        <item>@string/units_name_ZIL</item>
+        <item>@string/units_name_ZINC</item>
+        <item>@string/units_name_ZIP</item>
+        <item>@string/units_name_ZIPT</item>
+        <item>@string/units_name_ZLA</item>
+        <item>@string/units_name_ZMN</item>
+        <item>@string/units_name_ZPR</item>
+        <item>@string/units_name_ZRX</item>
+        <item>@string/units_name_ZSC</item>
+        <item>@string/units_name_ZT</item>
+        <item>@string/units_name_ZXC</item>
+    </array>
+
+    <string name="units_name_ABYSS">ABYSS</string>
+    <string name="units_name_ACCN">ACCN</string>
+    <string name="units_name_ACE">ACE</string>
+    <string name="units_name_ADA">ADA</string>
+    <string name="units_name_ADB">ADB</string>
+    <string name="units_name_ADH">ADH</string>
+    <string name="units_name_ADI">ADI</string>
+    <string name="units_name_ADL">ADL</string>
+    <string name="units_name_ADT">ADT</string>
+    <string name="units_name_ADX">ADX</string>
+    <string name="units_name_AE">AE</string>
+    <string name="units_name_AEN">AEN</string>
+    <string name="units_name_AERGO">AERGO</string>
+    <string name="units_name_AGI">AGI</string>
+    <string name="units_name_AGVC">AGVC</string>
+    <string name="units_name_AID">AID</string>
+    <string name="units_name_AIDOC">AIDOC</string>
+    <string name="units_name_AIT">AIT</string>
+    <string name="units_name_AIX">AIX</string>
+    <string name="units_name_ALIS">ALIS</string>
+    <string name="units_name_ALX">ALX</string>
+    <string name="units_name_AMB">AMB</string>
+    <string name="units_name_AMLT">AMLT</string>
+    <string name="units_name_AMM">AMM</string>
+    <string name="units_name_AMN">AMN</string>
+    <string name="units_name_AMO">AMO</string>
+    <string name="units_name_ANKR">ANKR</string>
+    <string name="units_name_ANT">ANT</string>
+    <string name="units_name_AOA">AOA</string>
+    <string name="units_name_APIS">APIS</string>
+    <string name="units_name_APPC">APPC</string>
+    <string name="units_name_ARAW">ARAW</string>
+    <string name="units_name_ARBT">ARBT</string>
+    <string name="units_name_ARCT">ARCT</string>
+    <string name="units_name_ARN">ARN</string>
+    <string name="units_name_ART">ART</string>
+    <string name="units_name_ARY">ARY</string>
+    <string name="units_name_AST">AST</string>
+    <string name="units_name_ASTO">ASTO</string>
+    <string name="units_name_ATL">ATL</string>
+    <string name="units_name_ATM">ATM</string>
+    <string name="units_name_ATMI">ATMI</string>
+    <string name="units_name_ATS">ATS</string>
+    <string name="units_name_AUC">AUC</string>
+    <string name="units_name_AVH">AVH</string>
+    <string name="units_name_AVT">AVT</string>
+    <string name="units_name_AWC">AWC</string>
+    <string name="units_name_AXPR">AXPR</string>
+    <string name="units_name_B2B">B2B</string>
+    <string name="units_name_BAAS">BAAS</string>
+    <string name="units_name_BANCA">BANCA</string>
+    <string name="units_name_BAT">BAT</string>
+    <string name="units_name_BAX">BAX</string>
+    <string name="units_name_BBC">BBC</string>
+    <string name="units_name_BBO">BBO</string>
+    <string name="units_name_BCAP">BCAP</string>
+    <string name="units_name_BCDN">BCDN</string>
+    <string name="units_name_BCDT">BCDT</string>
+    <string name="units_name_BCH">BCH</string>
+    <string name="units_name_BCPT">BCPT</string>
+    <string name="units_name_BDG">BDG</string>
+    <string name="units_name_BEAT">BEAT</string>
+    <string name="units_name_BEE">BEE</string>
+    <string name="units_name_BELA">BELA</string>
+    <string name="units_name_BERRY">BERRY</string>
+    <string name="units_name_BETHER">BETHER</string>
+    <string name="units_name_BETR">BETR</string>
+    <string name="units_name_BEZ">BEZ</string>
+    <string name="units_name_BFT">BFT</string>
+    <string name="units_name_BGG">BGG</string>
+    <string name="units_name_BIO">BIO</string>
+    <string name="units_name_BITX">BITX</string>
+    <string name="units_name_BIX">BIX</string>
+    <string name="units_name_BKX">BKX</string>
+    <string name="units_name_BLNM">BLNM</string>
+    <string name="units_name_BLOC">BLOC</string>
+    <string name="units_name_BLT">BLT</string>
+    <string name="units_name_BLZ">BLZ</string>
+    <string name="units_name_BMC">BMC</string>
+    <string name="units_name_BMH">BMH</string>
+    <string name="units_name_BMX">BMX</string>
+    <string name="units_name_BNK">BNK</string>
+    <string name="units_name_BNN">BNN</string>
+    <string name="units_name_BNT">BNT</string>
+    <string name="units_name_BNTY">BNTY</string>
+    <string name="units_name_BOB">BOB</string>
+    <string name="units_name_BOE">BOE</string>
+    <string name="units_name_BOLT">BOLT</string>
+    <string name="units_name_BOLTT">BOLTT</string>
+    <string name="units_name_BON">BON</string>
+    <string name="units_name_BOT">BOT</string>
+    <string name="units_name_BOUTS">BOUTS</string>
+    <string name="units_name_BOX">BOX</string>
+    <string name="units_name_BPT">BPT</string>
+    <string name="units_name_BPX">BPX</string>
+    <string name="units_name_BQ">BQ</string>
+    <string name="units_name_BQTX">BQTX</string>
+    <string name="units_name_BRAT">BRAT</string>
+    <string name="units_name_BRD">BRD</string>
+    <string name="units_name_BSTN">BSTN</string>
+    <string name="units_name_BSV">BSV</string>
+    <string name="units_name_BTC">BTC</string>
+    <string name="units_name_BTCL">BTCL</string>
+    <string name="units_name_BTCM">BTCM</string>
+    <string name="units_name_BTCRED">BTCRED</string>
+    <string name="units_name_BTM">BTM</string>
+    <string name="units_name_BTMX">BTMX</string>
+    <string name="units_name_BTO">BTO</string>
+    <string name="units_name_BTRN">BTRN</string>
+    <string name="units_name_BTU">BTU</string>
+    <string name="units_name_BUBO">BUBO</string>
+    <string name="units_name_BUD">BUD</string>
+    <string name="units_name_BWT">BWT</string>
+    <string name="units_name_BZ">BZ</string>
+    <string name="units_name_BZKY">BZKY</string>
+    <string name="units_name_BZNT">BZNT</string>
+    <string name="units_name_C20">C20</string>
+    <string name="units_name_CAG">CAG</string>
+    <string name="units_name_CAN">CAN</string>
+    <string name="units_name_CANDY">CANDY</string>
+    <string name="units_name_CAPP">CAPP</string>
+    <string name="units_name_CAR">CAR</string>
+    <string name="units_name_CARAT">CARAT</string>
+    <string name="units_name_CARD">CARD</string>
+    <string name="units_name_CBC">CBC</string>
+    <string name="units_name_CBT">CBT</string>
+    <string name="units_name_CCCX">CCCX</string>
+    <string name="units_name_CCL">CCL</string>
+    <string name="units_name_CCO">CCO</string>
+    <string name="units_name_CCRB">CCRB</string>
+    <string name="units_name_CCT">CCT</string>
+    <string name="units_name_CDT">CDT</string>
+    <string name="units_name_CDX">CDX</string>
+    <string name="units_name_CEDEX">CEDEX</string>
+    <string name="units_name_CEEK">CEEK</string>
+    <string name="units_name_CEL">CEL</string>
+    <string name="units_name_CELR">CELR</string>
+    <string name="units_name_CEN">CEN</string>
+    <string name="units_name_CENNZ">CENNZ</string>
+    <string name="units_name_CET">CET</string>
+    <string name="units_name_CHAT">CHAT</string>
+    <string name="units_name_CHP">CHP</string>
+    <string name="units_name_CHSB">CHSB</string>
+    <string name="units_name_CHT">CHT</string>
+    <string name="units_name_CHX">CHX</string>
+    <string name="units_name_CJT">CJT</string>
+    <string name="units_name_CL">CL</string>
+    <string name="units_name_CLN">CLN</string>
+    <string name="units_name_CMCT">CMCT</string>
+    <string name="units_name_CMS">CMS</string>
+    <string name="units_name_CMT">CMT</string>
+    <string name="units_name_CND">CND</string>
+    <string name="units_name_CNN">CNN</string>
+    <string name="units_name_CNX">CNX</string>
+    <string name="units_name_COB">COB</string>
+    <string name="units_name_COFI">COFI</string>
+    <string name="units_name_COIN">COIN</string>
+    <string name="units_name_CONI">CONI</string>
+    <string name="units_name_COSM">COSM</string>
+    <string name="units_name_COT">COT</string>
+    <string name="units_name_COU">COU</string>
+    <string name="units_name_COV">COV</string>
+    <string name="units_name_COVA">COVA</string>
+    <string name="units_name_CPAY">CPAY</string>
+    <string name="units_name_CPCH">CPCH</string>
+    <string name="units_name_CPT">CPT</string>
+    <string name="units_name_CPY">CPY</string>
+    <string name="units_name_CRB">CRB</string>
+    <string name="units_name_CRDS">CRDS</string>
+    <string name="units_name_CRED">CRED</string>
+    <string name="units_name_CREDO">CREDO</string>
+    <string name="units_name_CRO">CRO</string>
+    <string name="units_name_CRPT">CRPT</string>
+    <string name="units_name_CRYC">CRYC</string>
+    <string name="units_name_CSEN">CSEN</string>
+    <string name="units_name_CSM">CSM</string>
+    <string name="units_name_CSNO">CSNO</string>
+    <string name="units_name_CSP">CSP</string>
+    <string name="units_name_CTXC">CTXC</string>
+    <string name="units_name_CUBE">CUBE</string>
+    <string name="units_name_CV">CV</string>
+    <string name="units_name_CVC">CVC</string>
+    <string name="units_name_CVT">CVT</string>
+    <string name="units_name_CXO">CXO</string>
+    <string name="units_name_DACC">DACC</string>
+    <string name="units_name_DADI">DADI</string>
+    <string name="units_name_DAG">DAG</string>
+    <string name="units_name_DAGT">DAGT</string>
+    <string name="units_name_DAI">DAI</string>
+    <string name="units_name_DAN">DAN</string>
+    <string name="units_name_DAOC">DAOC</string>
+    <string name="units_name_DAPS">DAPS</string>
+    <string name="units_name_DASH">DASH</string>
+    <string name="units_name_DAT">DAT</string>
+    <string name="units_name_DATA">DATA</string>
+    <string name="units_name_DATX">DATX</string>
+    <string name="units_name_DAV">DAV</string>
+    <string name="units_name_DAX">DAX</string>
+    <string name="units_name_DAY">DAY</string>
+    <string name="units_name_DBET">DBET</string>
+    <string name="units_name_DCN">DCN</string>
+    <string name="units_name_DDD">DDD</string>
+    <string name="units_name_DEB">DEB</string>
+    <string name="units_name_DEC">DEC</string>
+    <string name="units_name_DENT">DENT</string>
+    <string name="units_name_DFXT">DFXT</string>
+    <string name="units_name_DGD">DGD</string>
+    <string name="units_name_DGTX">DGTX</string>
+    <string name="units_name_DGX">DGX</string>
+    <string name="units_name_DICE">DICE</string>
+    <string name="units_name_DIG">DIG</string>
+    <string name="units_name_DIO">DIO</string>
+    <string name="units_name_DLT">DLT</string>
+    <string name="units_name_DML">DML</string>
+    <string name="units_name_DMT">DMT</string>
+    <string name="units_name_DNA">DNA</string>
+    <string name="units_name_DNT">DNT</string>
+    <string name="units_name_DOCK">DOCK</string>
+    <string name="units_name_DOGE">DOGE</string>
+    <string name="units_name_DOOH">DOOH</string>
+    <string name="units_name_DOV">DOV</string>
+    <string name="units_name_DOW">DOW</string>
+    <string name="units_name_DPY">DPY</string>
+    <string name="units_name_DRG">DRG</string>
+    <string name="units_name_DRGN">DRGN</string>
+    <string name="units_name_DROP">DROP</string>
+    <string name="units_name_DRPU">DRPU</string>
+    <string name="units_name_DRT">DRT</string>
+    <string name="units_name_DTH">DTH</string>
+    <string name="units_name_DTR">DTR</string>
+    <string name="units_name_DTRC">DTRC</string>
+    <string name="units_name_DTX">DTX</string>
+    <string name="units_name_DXT">DXT</string>
+    <string name="units_name_EARTH">EARTH</string>
+    <string name="units_name_EBC">EBC</string>
+    <string name="units_name_EBTC">EBTC</string>
+    <string name="units_name_ECASH">ECASH</string>
+    <string name="units_name_ECHT">ECHT</string>
+    <string name="units_name_ECOM">ECOM</string>
+    <string name="units_name_ECTE">ECTE</string>
+    <string name="units_name_EDG">EDG</string>
+    <string name="units_name_EDN">EDN</string>
+    <string name="units_name_EDO">EDO</string>
+    <string name="units_name_EDU">EDU</string>
+    <string name="units_name_EGCC">EGCC</string>
+    <string name="units_name_EGT">EGT</string>
+    <string name="units_name_EKO">EKO</string>
+    <string name="units_name_EKT">EKT</string>
+    <string name="units_name_ELEC">ELEC</string>
+    <string name="units_name_ELF">ELF</string>
+    <string name="units_name_ELI">ELI</string>
+    <string name="units_name_ELITE">ELITE</string>
+    <string name="units_name_ELIX">ELIX</string>
+    <string name="units_name_ELTCOIN">ELTCOIN</string>
+    <string name="units_name_ELY">ELY</string>
+    <string name="units_name_EMPH">EMPH</string>
+    <string name="units_name_ENGT">ENGT</string>
+    <string name="units_name_ENJ">ENJ</string>
+    <string name="units_name_ENTER">ENTER</string>
+    <string name="units_name_EOSDAC">EOSDAC</string>
+    <string name="units_name_EQUAL">EQUAL</string>
+    <string name="units_name_ERC20">ERC20</string>
+    <string name="units_name_ERIS">ERIS</string>
+    <string name="units_name_ERO">ERO</string>
+    <string name="units_name_ESS">ESS</string>
+    <string name="units_name_EST">EST</string>
+    <string name="units_name_ESZ">ESZ</string>
+    <string name="units_name_ETBS">ETBS</string>
+    <string name="units_name_ETC">ETC</string>
+    <string name="units_name_ETG">ETG</string>
+    <string name="units_name_ETGP">ETGP</string>
+    <string name="units_name_ETH">ETH</string>
+    <string name="units_name_ETHM">ETHM</string>
+    <string name="units_name_ETHOS">ETHOS</string>
+    <string name="units_name_ETK">ETK</string>
+    <string name="units_name_ETN">ETN</string>
+    <string name="units_name_EURS">EURS</string>
+    <string name="units_name_EVC">EVC</string>
+    <string name="units_name_EVE">EVE</string>
+    <string name="units_name_EVED">EVED</string>
+    <string name="units_name_EVR">EVR</string>
+    <string name="units_name_EVX">EVX</string>
+    <string name="units_name_EXC">EXC</string>
+    <string name="units_name_EXMR">EXMR</string>
+    <string name="units_name_EXRN">EXRN</string>
+    <string name="units_name_EXY">EXY</string>
+    <string name="units_name_FACE">FACE</string>
+    <string name="units_name_FAIRG">FAIRG</string>
+    <string name="units_name_FAT">FAT</string>
+    <string name="units_name_FDX">FDX</string>
+    <string name="units_name_FDZ">FDZ</string>
+    <string name="units_name_FET">FET</string>
+    <string name="units_name_FLIK">FLIK</string>
+    <string name="units_name_FLIXX">FLIXX</string>
+    <string name="units_name_FLOT">FLOT</string>
+    <string name="units_name_FLUZ">FLUZ</string>
+    <string name="units_name_FND">FND</string>
+    <string name="units_name_FNTB">FNTB</string>
+    <string name="units_name_FOAM">FOAM</string>
+    <string name="units_name_FOTA">FOTA</string>
+    <string name="units_name_FOXT">FOXT</string>
+    <string name="units_name_FREC">FREC</string>
+    <string name="units_name_FREE">FREE</string>
+    <string name="units_name_FSN">FSN</string>
+    <string name="units_name_FT">FT</string>
+    <string name="units_name_FTM">FTM</string>
+    <string name="units_name_FTT">FTT</string>
+    <string name="units_name_FTX">FTX</string>
+    <string name="units_name_FUEL">FUEL</string>
+    <string name="units_name_FUN">FUN</string>
+    <string name="units_name_FUNDZ">FUNDZ</string>
+    <string name="units_name_FXT">FXT</string>
+    <string name="units_name_FYP">FYP</string>
+    <string name="units_name_GAMB">GAMB</string>
+    <string name="units_name_GARD">GARD</string>
+    <string name="units_name_GEM">GEM</string>
+    <string name="units_name_GENE">GENE</string>
+    <string name="units_name_GENS">GENS</string>
+    <string name="units_name_GETX">GETX</string>
+    <string name="units_name_GNO">GNO</string>
+    <string name="units_name_GNT">GNT</string>
+    <string name="units_name_GNX">GNX</string>
+    <string name="units_name_GOOD">GOOD</string>
+    <string name="units_name_GRID">GRID</string>
+    <string name="units_name_GRMD">GRMD</string>
+    <string name="units_name_GRX">GRX</string>
+    <string name="units_name_GSC">GSC</string>
+    <string name="units_name_GST">GST</string>
+    <string name="units_name_GTC">GTC</string>
+    <string name="units_name_GTO">GTO</string>
+    <string name="units_name_GUESS">GUESS</string>
+    <string name="units_name_GUP">GUP</string>
+    <string name="units_name_GUSD">GUSD</string>
+    <string name="units_name_GVE">GVE</string>
+    <string name="units_name_GVT">GVT</string>
+    <string name="units_name_HAND">HAND</string>
+    <string name="units_name_HB">HB</string>
+    <string name="units_name_HBT">HBT</string>
+    <string name="units_name_HBZ">HBZ</string>
+    <string name="units_name_HEDG">HEDG</string>
+    <string name="units_name_HER">HER</string>
+    <string name="units_name_HERO">HERO</string>
+    <string name="units_name_HGT">HGT</string>
+    <string name="units_name_HIT">HIT</string>
+    <string name="units_name_HKN">HKN</string>
+    <string name="units_name_HMC">HMC</string>
+    <string name="units_name_HMQ">HMQ</string>
+    <string name="units_name_HORSE">HORSE</string>
+    <string name="units_name_HPB">HPB</string>
+    <string name="units_name_HPT">HPT</string>
+    <string name="units_name_HQT">HQT</string>
+    <string name="units_name_HQX">HQX</string>
+    <string name="units_name_HSC">HSC</string>
+    <string name="units_name_HST">HST</string>
+    <string name="units_name_HT">HT</string>
+    <string name="units_name_HUR">HUR</string>
+    <string name="units_name_HVN">HVN</string>
+    <string name="units_name_HYDRO">HYDRO</string>
+    <string name="units_name_HYT">HYT</string>
+    <string name="units_name_ICHX">ICHX</string>
+    <string name="units_name_ICN">ICN</string>
+    <string name="units_name_ICON">ICON</string>
+    <string name="units_name_IDEX">IDEX</string>
+    <string name="units_name_IDH">IDH</string>
+    <string name="units_name_IDT">IDT</string>
+    <string name="units_name_IDXM">IDXM</string>
+    <string name="units_name_IETH">IETH</string>
+    <string name="units_name_IFT">IFT</string>
+    <string name="units_name_IG">IG</string>
+    <string name="units_name_IHF">IHF</string>
+    <string name="units_name_IHT">IHT</string>
+    <string name="units_name_IMT">IMT</string>
+    <string name="units_name_IND">IND</string>
+    <string name="units_name_ING">ING</string>
+    <string name="units_name_INS">INS</string>
+    <string name="units_name_INSTAR">INSTAR</string>
+    <string name="units_name_INT">INT</string>
+    <string name="units_name_INVC">INVC</string>
+    <string name="units_name_INX">INX</string>
+    <string name="units_name_INXT">INXT</string>
+    <string name="units_name_IOST">IOST</string>
+    <string name="units_name_IOTX">IOTX</string>
+    <string name="units_name_IPC">IPC</string>
+    <string name="units_name_IPSX">IPSX</string>
+    <string name="units_name_IQN">IQN</string>
+    <string name="units_name_ISR">ISR</string>
+    <string name="units_name_ITC">ITC</string>
+    <string name="units_name_ITL">ITL</string>
+    <string name="units_name_ITT">ITT</string>
+    <string name="units_name_IVY">IVY</string>
+    <string name="units_name_IXT">IXT</string>
+    <string name="units_name_J8T">J8T</string>
+    <string name="units_name_JC">JC</string>
+    <string name="units_name_JET">JET</string>
+    <string name="units_name_JNT">JNT</string>
+    <string name="units_name_JOINT">JOINT</string>
+    <string name="units_name_JSE">JSE</string>
+    <string name="units_name_KAN">KAN</string>
+    <string name="units_name_KBC">KBC</string>
+    <string name="units_name_KCASH">KCASH</string>
+    <string name="units_name_KCS">KCS</string>
+    <string name="units_name_KEY">KEY</string>
+    <string name="units_name_KICK">KICK</string>
+    <string name="units_name_KIN">KIN</string>
+    <string name="units_name_KIND">KIND</string>
+    <string name="units_name_KNC">KNC</string>
+    <string name="units_name_KRL">KRL</string>
+    <string name="units_name_KUE">KUE</string>
+    <string name="units_name_KWH">KWH</string>
+    <string name="units_name_LA">LA</string>
+    <string name="units_name_LALA">LALA</string>
+    <string name="units_name_LAMB">LAMB</string>
+    <string name="units_name_LATX">LATX</string>
+    <string name="units_name_LCS">LCS</string>
+    <string name="units_name_LDC">LDC</string>
+    <string name="units_name_LEDU">LEDU</string>
+    <string name="units_name_LEND">LEND</string>
+    <string name="units_name_LEV">LEV</string>
+    <string name="units_name_LGO">LGO</string>
+    <string name="units_name_LIF">LIF</string>
+    <string name="units_name_LIFE">LIFE</string>
+    <string name="units_name_LIKE">LIKE</string>
+    <string name="units_name_LINA">LINA</string>
+    <string name="units_name_LINK">LINK</string>
+    <string name="units_name_LION">LION</string>
+    <string name="units_name_LNC">LNC</string>
+    <string name="units_name_LND">LND</string>
+    <string name="units_name_LOCI">LOCI</string>
+    <string name="units_name_LOCK">LOCK</string>
+    <string name="units_name_LOOM">LOOM</string>
+    <string name="units_name_LPT">LPT</string>
+    <string name="units_name_LQDN">LQDN</string>
+    <string name="units_name_LRC">LRC</string>
+    <string name="units_name_LST">LST</string>
+    <string name="units_name_LTC">LTC</string>
+    <string name="units_name_LTO">LTO</string>
+    <string name="units_name_LUC">LUC</string>
+    <string name="units_name_LUN">LUN</string>
+    <string name="units_name_LYM">LYM</string>
+    <string name="units_name_M2O">M2O</string>
+    <string name="units_name_MANA">MANA</string>
+    <string name="units_name_MATIC">MATIC</string>
+    <string name="units_name_MBTX">MBTX</string>
+    <string name="units_name_MCO">MCO</string>
+    <string name="units_name_MDA">MDA</string>
+    <string name="units_name_MDCL">MDCL</string>
+    <string name="units_name_MDS">MDS</string>
+    <string name="units_name_MEDX">MEDX</string>
+    <string name="units_name_MEE">MEE</string>
+    <string name="units_name_MENLO">MENLO</string>
+    <string name="units_name_META">META</string>
+    <string name="units_name_METAL">METAL</string>
+    <string name="units_name_METM">METM</string>
+    <string name="units_name_MFG">MFG</string>
+    <string name="units_name_MFT">MFT</string>
+    <string name="units_name_MGO">MGO</string>
+    <string name="units_name_MIC">MIC</string>
+    <string name="units_name_MITH">MITH</string>
+    <string name="units_name_MITX">MITX</string>
+    <string name="units_name_MIXI">MIXI</string>
+    <string name="units_name_MKR">MKR</string>
+    <string name="units_name_MLN">MLN</string>
+    <string name="units_name_MNC">MNC</string>
+    <string name="units_name_MNE">MNE</string>
+    <string name="units_name_MNTP">MNTP</string>
+    <string name="units_name_MOAC">MOAC</string>
+    <string name="units_name_MOF">MOF</string>
+    <string name="units_name_MOLK">MOLK</string>
+    <string name="units_name_MOT">MOT</string>
+    <string name="units_name_MRK">MRK</string>
+    <string name="units_name_MRPH">MRPH</string>
+    <string name="units_name_MTC">MTC</string>
+    <string name="units_name_MTH">MTH</string>
+    <string name="units_name_MTKN">MTKN</string>
+    <string name="units_name_MTRC">MTRC</string>
+    <string name="units_name_MTX">MTX</string>
+    <string name="units_name_MVL">MVL</string>
+    <string name="units_name_MWAT">MWAT</string>
+    <string name="units_name_MXAI">MXAI</string>
+    <string name="units_name_MXM">MXM</string>
+    <string name="units_name_MYB">MYB</string>
+    <string name="units_name_MYST">MYST</string>
+    <string name="units_name_NANJ">NANJ</string>
+    <string name="units_name_NAS">NAS</string>
+    <string name="units_name_NAVI">NAVI</string>
+    <string name="units_name_NBAI">NBAI</string>
+    <string name="units_name_NBC">NBC</string>
+    <string name="units_name_NCASH">NCASH</string>
+    <string name="units_name_NCC">NCC</string>
+    <string name="units_name_NCT">NCT</string>
+    <string name="units_name_NEC">NEC</string>
+    <string name="units_name_NEU">NEU</string>
+    <string name="units_name_NEXO">NEXO</string>
+    <string name="units_name_NEXT">NEXT</string>
+    <string name="units_name_NGC">NGC</string>
+    <string name="units_name_NIO">NIO</string>
+    <string name="units_name_NMR">NMR</string>
+    <string name="units_name_NOAH">NOAH</string>
+    <string name="units_name_NOBS">NOBS</string>
+    <string name="units_name_NOKU">NOKU</string>
+    <string name="units_name_NOX">NOX</string>
+    <string name="units_name_NPER">NPER</string>
+    <string name="units_name_NPX">NPX</string>
+    <string name="units_name_NPXS">NPXS</string>
+    <string name="units_name_NRG">NRG</string>
+    <string name="units_name_NRP">NRP</string>
+    <string name="units_name_NTK">NTK</string>
+    <string name="units_name_NULS">NULS</string>
+    <string name="units_name_NXC">NXC</string>
+    <string name="units_name_OAX">OAX</string>
+    <string name="units_name_OCN">OCN</string>
+    <string name="units_name_ODE">ODE</string>
+    <string name="units_name_OIO">OIO</string>
+    <string name="units_name_OKB">OKB</string>
+    <string name="units_name_OLE">OLE</string>
+    <string name="units_name_OLT">OLT</string>
+    <string name="units_name_OMG">OMG</string>
+    <string name="units_name_OMX">OMX</string>
+    <string name="units_name_ONG">ONG</string>
+    <string name="units_name_ONL">ONL</string>
+    <string name="units_name_OPEN">OPEN</string>
+    <string name="units_name_OPT">OPT</string>
+    <string name="units_name_ORBS">ORBS</string>
+    <string name="units_name_ORI">ORI</string>
+    <string name="units_name_ORME">ORME</string>
+    <string name="units_name_ORS">ORS</string>
+    <string name="units_name_OSA">OSA</string>
+    <string name="units_name_OST">OST</string>
+    <string name="units_name_PAL">PAL</string>
+    <string name="units_name_PARETO">PARETO</string>
+    <string name="units_name_PASS">PASS</string>
+    <string name="units_name_PAT">PAT</string>
+    <string name="units_name_PAX">PAX</string>
+    <string name="units_name_PAY">PAY</string>
+    <string name="units_name_PCH">PCH</string>
+    <string name="units_name_PCL">PCL</string>
+    <string name="units_name_PCO">PCO</string>
+    <string name="units_name_PFR">PFR</string>
+    <string name="units_name_PHI">PHI</string>
+    <string name="units_name_PIX">PIX</string>
+    <string name="units_name_PKT">PKT</string>
+    <string name="units_name_PLA">PLA</string>
+    <string name="units_name_PLAY">PLAY</string>
+    <string name="units_name_PLBT">PLBT</string>
+    <string name="units_name_PLR">PLR</string>
+    <string name="units_name_PLU">PLU</string>
+    <string name="units_name_PMA">PMA</string>
+    <string name="units_name_PMNT">PMNT</string>
+    <string name="units_name_PNT">PNT</string>
+    <string name="units_name_POE">POE</string>
+    <string name="units_name_POLL">POLL</string>
+    <string name="units_name_POLY">POLY</string>
+    <string name="units_name_POWR">POWR</string>
+    <string name="units_name_PPP">PPP</string>
+    <string name="units_name_PPT">PPT</string>
+    <string name="units_name_PRA">PRA</string>
+    <string name="units_name_PRG">PRG</string>
+    <string name="units_name_PRIX">PRIX</string>
+    <string name="units_name_PRO">PRO</string>
+    <string name="units_name_PSM">PSM</string>
+    <string name="units_name_PST">PST</string>
+    <string name="units_name_PTOY">PTOY</string>
+    <string name="units_name_PXG">PXG</string>
+    <string name="units_name_PYLNT">PYLNT</string>
+    <string name="units_name_PYN">PYN</string>
+    <string name="units_name_QASH">QASH</string>
+    <string name="units_name_QBIT">QBIT</string>
+    <string name="units_name_QCX">QCX</string>
+    <string name="units_name_QKC">QKC</string>
+    <string name="units_name_QNTU">QNTU</string>
+    <string name="units_name_QSP">QSP</string>
+    <string name="units_name_QUANT">QUANT</string>
+    <string name="units_name_QUN">QUN</string>
+    <string name="units_name_QUSD">QUSD</string>
+    <string name="units_name_R">R</string>
+    <string name="units_name_RCN">RCN</string>
+    <string name="units_name_RCT">RCT</string>
+    <string name="units_name_RDC">RDC</string>
+    <string name="units_name_RDD">RDD</string>
+    <string name="units_name_REAL">REAL</string>
+    <string name="units_name_REBL">REBL</string>
+    <string name="units_name_REF">REF</string>
+    <string name="units_name_REM">REM</string>
+    <string name="units_name_REP">REP</string>
+    <string name="units_name_REQ">REQ</string>
+    <string name="units_name_REX">REX</string>
+    <string name="units_name_RFR">RFR</string>
+    <string name="units_name_RHOC">RHOC</string>
+    <string name="units_name_RIYA">RIYA</string>
+    <string name="units_name_RLC">RLC</string>
+    <string name="units_name_RLX">RLX</string>
+    <string name="units_name_RMESH">RMESH</string>
+    <string name="units_name_RNT">RNT</string>
+    <string name="units_name_RNTB">RNTB</string>
+    <string name="units_name_ROBET">ROBET</string>
+    <string name="units_name_ROCK">ROCK</string>
+    <string name="units_name_ROX">ROX</string>
+    <string name="units_name_RRC">RRC</string>
+    <string name="units_name_RTE">RTE</string>
+    <string name="units_name_RUFF">RUFF</string>
+    <string name="units_name_RVT">RVT</string>
+    <string name="units_name_SAL">SAL</string>
+    <string name="units_name_SALT">SALT</string>
+    <string name="units_name_SAN">SAN</string>
+    <string name="units_name_SCC">SCC</string>
+    <string name="units_name_SCL">SCL</string>
+    <string name="units_name_SCRL">SCRL</string>
+    <string name="units_name_SEAL">SEAL</string>
+    <string name="units_name_SEELE">SEELE</string>
+    <string name="units_name_SENC">SENC</string>
+    <string name="units_name_SENT">SENT</string>
+    <string name="units_name_SETH">SETH</string>
+    <string name="units_name_SGN">SGN</string>
+    <string name="units_name_SGR">SGR</string>
+    <string name="units_name_SHE">SHE</string>
+    <string name="units_name_SHIP">SHIP</string>
+    <string name="units_name_SHOW">SHOW</string>
+    <string name="units_name_SHP">SHP</string>
+    <string name="units_name_SHPING">SHPING</string>
+    <string name="units_name_SKIN">SKIN</string>
+    <string name="units_name_SKM">SKM</string>
+    <string name="units_name_SKRB">SKRB</string>
+    <string name="units_name_SLT">SLT</string>
+    <string name="units_name_SMT">SMT</string>
+    <string name="units_name_SNC">SNC</string>
+    <string name="units_name_SNGLS">SNGLS</string>
+    <string name="units_name_SNIP">SNIP</string>
+    <string name="units_name_SNM">SNM</string>
+    <string name="units_name_SNOV">SNOV</string>
+    <string name="units_name_SNPC">SNPC</string>
+    <string name="units_name_SNS">SNS</string>
+    <string name="units_name_SNT">SNT</string>
+    <string name="units_name_SNTR">SNTR</string>
+    <string name="units_name_SNTVT">SNTVT</string>
+    <string name="units_name_SNX">SNX</string>
+    <string name="units_name_SOAR">SOAR</string>
+    <string name="units_name_SOC">SOC</string>
+    <string name="units_name_SOLVE">SOLVE</string>
+    <string name="units_name_SOMA">SOMA</string>
+    <string name="units_name_SPANK">SPANK</string>
+    <string name="units_name_SPF">SPF</string>
+    <string name="units_name_SPHTX">SPHTX</string>
+    <string name="units_name_SPT">SPT</string>
+    <string name="units_name_SPX">SPX</string>
+    <string name="units_name_SRCH">SRCH</string>
+    <string name="units_name_SRCOIN">SRCOIN</string>
+    <string name="units_name_SRN">SRN</string>
+    <string name="units_name_SS">SS</string>
+    <string name="units_name_STAC">STAC</string>
+    <string name="units_name_STACS">STACS</string>
+    <string name="units_name_STAR">STAR</string>
+    <string name="units_name_STASH">STASH</string>
+    <string name="units_name_STC">STC</string>
+    <string name="units_name_STK">STK</string>
+    <string name="units_name_STORJ">STORJ</string>
+    <string name="units_name_STORM">STORM</string>
+    <string name="units_name_STQ">STQ</string>
+    <string name="units_name_STU">STU</string>
+    <string name="units_name_STX">STX</string>
+    <string name="units_name_SUB">SUB</string>
+    <string name="units_name_SUR">SUR</string>
+    <string name="units_name_SUSD">SUSD</string>
+    <string name="units_name_SVD">SVD</string>
+    <string name="units_name_SWARM">SWARM</string>
+    <string name="units_name_SWC">SWC</string>
+    <string name="units_name_SWFTC">SWFTC</string>
+    <string name="units_name_SWT">SWT</string>
+    <string name="units_name_SXDT">SXDT</string>
+    <string name="units_name_SXUT">SXUT</string>
+    <string name="units_name_TAAS">TAAS</string>
+    <string name="units_name_TBX">TBX</string>
+    <string name="units_name_TCH">TCH</string>
+    <string name="units_name_TCT">TCT</string>
+    <string name="units_name_TDP">TDP</string>
+    <string name="units_name_TDS">TDS</string>
+    <string name="units_name_TEL">TEL</string>
+    <string name="units_name_TEN">TEN</string>
+    <string name="units_name_TFD">TFD</string>
+    <string name="units_name_TFL">TFL</string>
+    <string name="units_name_TFUEL">TFUEL</string>
+    <string name="units_name_TGAME">TGAME</string>
+    <string name="units_name_TGT">TGT</string>
+    <string name="units_name_THETA">THETA</string>
+    <string name="units_name_THR">THR</string>
+    <string name="units_name_THRT">THRT</string>
+    <string name="units_name_TIE">TIE</string>
+    <string name="units_name_TIG">TIG</string>
+    <string name="units_name_TIOX">TIOX</string>
+    <string name="units_name_TIX">TIX</string>
+    <string name="units_name_TKN">TKN</string>
+    <string name="units_name_TMT">TMT</string>
+    <string name="units_name_TMTG">TMTG</string>
+    <string name="units_name_TNB">TNB</string>
+    <string name="units_name_TNT">TNT</string>
+    <string name="units_name_TOMO">TOMO</string>
+    <string name="units_name_TOPC">TOPC</string>
+    <string name="units_name_TRAC">TRAC</string>
+    <string name="units_name_TRAK">TRAK</string>
+    <string name="units_name_TRCT">TRCT</string>
+    <string name="units_name_TRDT">TRDT</string>
+    <string name="units_name_TRIO">TRIO</string>
+    <string name="units_name_TRST">TRST</string>
+    <string name="units_name_TRUE">TRUE</string>
+    <string name="units_name_TSL">TSL</string>
+    <string name="units_name_TTC">TTC</string>
+    <string name="units_name_TTV">TTV</string>
+    <string name="units_name_TUSD">TUSD</string>
+    <string name="units_name_UBC">UBC</string>
+    <string name="units_name_UBEX">UBEX</string>
+    <string name="units_name_UBT">UBT</string>
+    <string name="units_name_UCT">UCT</string>
+    <string name="units_name_UDOO">UDOO</string>
+    <string name="units_name_UFR">UFR</string>
+    <string name="units_name_UGAS">UGAS</string>
+    <string name="units_name_UGC">UGC</string>
+    <string name="units_name_UKG">UKG</string>
+    <string name="units_name_UP">UP</string>
+    <string name="units_name_UPP">UPP</string>
+    <string name="units_name_UQC">UQC</string>
+    <string name="units_name_USDC">USDC</string>
+    <string name="units_name_USDS">USDS</string>
+    <string name="units_name_USDT">USDT</string>
+    <string name="units_name_USE">USE</string>
+    <string name="units_name_UTK">UTK</string>
+    <string name="units_name_UTNP">UTNP</string>
+    <string name="units_name_UTT">UTT</string>
+    <string name="units_name_UUU">UUU</string>
+    <string name="units_name_VEE">VEE</string>
+    <string name="units_name_VERI">VERI</string>
+    <string name="units_name_VEST">VEST</string>
+    <string name="units_name_VET">VET</string>
+    <string name="units_name_VIBE">VIBE</string>
+    <string name="units_name_VIDT">VIDT</string>
+    <string name="units_name_VIN">VIN</string>
+    <string name="units_name_VIT">VIT</string>
+    <string name="units_name_VITE">VITE</string>
+    <string name="units_name_VIU">VIU</string>
+    <string name="units_name_VME">VME</string>
+    <string name="units_name_VNX">VNX</string>
+    <string name="units_name_VOISE">VOISE</string>
+    <string name="units_name_VRA">VRA</string>
+    <string name="units_name_VRS">VRS</string>
+    <string name="units_name_VSL">VSL</string>
+    <string name="units_name_VZT">VZT</string>
+    <string name="units_name_WAB">WAB</string>
+    <string name="units_name_WABI">WABI</string>
+    <string name="units_name_WAN">WAN</string>
+    <string name="units_name_WAND">WAND</string>
+    <string name="units_name_WAX">WAX</string>
+    <string name="units_name_WBTC">WBTC</string>
+    <string name="units_name_WCOIN">WCOIN</string>
+    <string name="units_name_WEB">WEB</string>
+    <string name="units_name_WELL">WELL</string>
+    <string name="units_name_WETH">WETH</string>
+    <string name="units_name_WHEN">WHEN</string>
+    <string name="units_name_WINGS">WINGS</string>
+    <string name="units_name_WISH">WISH</string>
+    <string name="units_name_WIZ">WIZ</string>
+    <string name="units_name_WPP">WPP</string>
+    <string name="units_name_WPR">WPR</string>
+    <string name="units_name_WRC">WRC</string>
+    <string name="units_name_WT">WT</string>
+    <string name="units_name_WTC">WTC</string>
+    <string name="units_name_WTL">WTL</string>
+    <string name="units_name_WYS">WYS</string>
+    <string name="units_name_X8X">X8X</string>
+    <string name="units_name_XAUR">XAUR</string>
+    <string name="units_name_XBASE">XBASE</string>
+    <string name="units_name_XBB">XBB</string>
+    <string name="units_name_XBL">XBL</string>
+    <string name="units_name_XBX">XBX</string>
+    <string name="units_name_XCD">XCD</string>
+    <string name="units_name_XCLR">XCLR</string>
+    <string name="units_name_XDCE">XDCE</string>
+    <string name="units_name_XES">XES</string>
+    <string name="units_name_XET">XET</string>
+    <string name="units_name_XMX">XMX</string>
+    <string name="units_name_XNG">XNG</string>
+    <string name="units_name_XNK">XNK</string>
+    <string name="units_name_XOV">XOV</string>
+    <string name="units_name_XPAT">XPAT</string>
+    <string name="units_name_XUC">XUC</string>
+    <string name="units_name_XYO">XYO</string>
+    <string name="units_name_XZC">XZC</string>
+    <string name="units_name_YEE">YEE</string>
+    <string name="units_name_YOYOW">YOYOW</string>
+    <string name="units_name_YUP">YUP</string>
+    <string name="units_name_ZAP">ZAP</string>
+    <string name="units_name_ZCN">ZCN</string>
+    <string name="units_name_ZCO">ZCO</string>
+    <string name="units_name_ZEC">ZEC</string>
+    <string name="units_name_ZEON">ZEON</string>
+    <string name="units_name_ZIL">ZIL</string>
+    <string name="units_name_ZINC">ZINC</string>
+    <string name="units_name_ZIP">ZIP</string>
+    <string name="units_name_ZIPT">ZIPT</string>
+    <string name="units_name_ZLA">ZLA</string>
+    <string name="units_name_ZMN">ZMN</string>
+    <string name="units_name_ZPR">ZPR</string>
+    <string name="units_name_ZRX">ZRX</string>
+    <string name="units_name_ZSC">ZSC</string>
+    <string name="units_name_ZT">ZT</string>
+    <string name="units_name_ZXC">ZXC</string>
+</resources>

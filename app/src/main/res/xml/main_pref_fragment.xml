@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+        android:key="@string/from_units_key"
+        android:title="@string/from_units_pref_name"
+        android:defaultValue="@string/from_units_value_standard"
+        android:entries="@array/from_units_array_values"
+        android:entryValues="@array/from_units_array_values"
+        android:summary="%s"
+        />
+    <ListPreference
+        android:key="@string/to_units_key"
+        android:title="@string/to_units_pref_name"
+        android:defaultValue="@string/to_units_value_standard"
+        android:entries="@array/to_units_array_values"
+        android:entryValues="@array/to_units_array_values"
+        android:summary="%s"
+        />
+
+    <EditTextPreference
+        android:key="@string/num_days_key"
+        android:title="@string/num_days_key_pref_name"
+        android:defaultValue=""
+        />
+</PreferenceScreen>

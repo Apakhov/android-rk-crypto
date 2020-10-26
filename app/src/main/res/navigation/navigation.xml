@@ -13,14 +13,24 @@
         <action
             android:id="@+id/action_startFragment_to_listFragment"
             app:destination="@id/listFragment" />
+        <action
+            android:id="@+id/action_startFragment_to_mainSettingsFragment"
+            app:destination="@id/mainSettingsFragment" />
     </fragment>
     <fragment
         android:id="@+id/listFragment"
         android:name="com.boww.crypto.ListFragment"
-        android:label="fragment_list"
+        android:label="@string/hourly_list_title"
         tools:layout="@layout/fragment_list" >
         <argument
             android:name="request_string"
             app:argType="string" />
+        <action
+            android:id="@+id/action_listFragment_to_mainSettingsFragment2"
+            app:destination="@id/mainSettingsFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/mainSettingsFragment"
+        android:name="com.boww.crypto.MainSettingsFragment"
+        android:label="@string/menu_settings_title" />
 </navigation>

@@ -22,13 +22,13 @@ data class ExchangeAPIResponseData(
 )
 
 data class ExchangeAPIResponseDataItem(
-    @Json(name = "time") val time: Long,
-    @Json(name = "high") val high: Float,
-    @Json(name = "low") val low: Float,
-    @Json(name = "open") val open: Float,
+    @Json(name = "time") var time: Long,
+    @Json(name = "high") var high: Float,
+    @Json(name = "low") var low: Float,
+    @Json(name = "open") var open: Float,
     @Json(name = "volumefrom") val volumeFrom: Float,
     @Json(name = "volumeto") val volumeTo: Float,
-    @Json(name = "close") val close: Float,
+    @Json(name = "close") var close: Float,
     @Json(name = "conversionType") val conversionType: String,
     @Json(name = "conversionSymbol") val conversionSymbol: String,
 )
@@ -52,6 +52,7 @@ object ExchangeApi {
             @Query("tsym") to: String,
             @Query("limit") lim: Int,
             @Query("toTs") ts: Long,
+            @Query("e") market: String = "CCCAGG",
         ): ExchangeAPIResponse
         @GET("/data/v2/histohour")
         suspend fun getHourly(
@@ -59,6 +60,16 @@ object ExchangeApi {
             @Query("tsym") to: String,
             @Query("limit") lim: Int,
             @Query("toTs") ts: Long,
+            @Query("e") market: String = "CCCAGG",
+        ): ExchangeAPIResponse
+        @GET("/data/v2/histominute")
+        suspend fun getMinutely(
+            @Query("fsym") from: String,
+            @Query("tsym") to: String,
+            @Query("limit") lim: Int,
+//            @Query("aggregate") aggr: Int,
+            @Query("toTs") ts: Long,
+            @Query("e") market: String = "CCCAGG",
         ): ExchangeAPIResponse
     }
 

@@ -10,4 +10,35 @@
     <string name="bttn_google">yandex</string>
     <string name="bttn_link">link</string>
     <string name="bttn_run_hint">search</string>
+
+    <string name="hour_col_name">hour</string>
+    <string name="close_col_name">close</string>
+    <string name="change_col_name">change</string>
+    <string name="percent_col_name">percent</string>
+
+    <string name="daily_overview_str">Day overview</string>
+
+    <string name="info_low_string">LOW</string>
+    <string name="info_open_string">OPEN</string>
+    <string name="info_close_string">CLOSE</string>
+    <string name="info_change_string">CHANGE</string>
+
+    <string name="exchange_dummy">BTC/USD</string>
+    <string name="date_dummy">21 OCT 2020</string>
+    <string name="info_high_string">HIGH</string>
+    <string name="money_dummy">2163 USD</string>
+    <string name="num_days_key">num_days_key</string>
+    <string name="num_days_key_pref_name">Amount of days load</string>
+    <string name="units_key">units_key_key</string>
+    <string name="from_units_value_standard">BTC</string>
+    <string name="from_units_pref_name">Exchange From</string>
+    <string name="from_units_key">from_uits_key</string>
+    <string name="to_units_key">to_units_key</string>
+    <string name="to_units_pref_name">Exchange To</string>
+    <string name="to_units_value_standard">USD</string>
+    <string name="menu_settings_title">Settings</string>
+    <string name="set_num_days_bad_num">bad days amount</string>
+    <string name="set_num_days_ok_num">amount of days changed</string>
+    <string name="set_num_days_not_num">not a number in input</string>
+    <string name="hourly_list_title">Daily List</string>
 </resources>

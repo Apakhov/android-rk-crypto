@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="to_units_array_values">
+        <item>@string/units_name_USD</item>
+        <item>@string/units_name_RUB</item>
+    </array>
+
+    <string name="units_name_USD">USD</string>
+    <string name="units_name_RUB">RUB</string>
+</resources>

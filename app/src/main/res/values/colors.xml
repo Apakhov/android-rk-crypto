@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorPrimary">#2E26D9</color>
+    <color name="colorPrimaryDark">#2E26D9</color>
     <color name="colorAccent">#03DAC5</color>
 
     <color name="colorMainBlue">#2E26D9</color>
+    <color name="colorMainPink">#FFC4DD</color>
+    <color name="colorMainBlack">#000000</color>
+    <color name="colorMainWhite">#FFFFFF</color>
 
     <color name="colorStonks">#04D600</color>
     <color name="colorNotStonks">#FF5F5F</color>
+
+    <color name="colorOnBlueStonks">#05FF00</color>
+    <color name="colorOnBlueNotStonks">#FF8C8C</color>
 </resources>

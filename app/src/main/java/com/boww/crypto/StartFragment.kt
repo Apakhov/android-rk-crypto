@@ -30,7 +30,15 @@ class StartFragment : Fragment() {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_start, container, false)
         binding.bttnRun.setOnClickListener {
             val bundle = bundleOf(
-                "request_string" to binding.plainTextInput.text.toString(),
+                "fsym" to "BTC",
+                "tsym" to "RUB",
+                "market" to "CCCAGG",
+                "limit" to 24,
+                "timestamp" to getCurrentDateTime().ts(),
+                "high" to 12130.4f,
+                "low" to 12133.4f,
+                "open" to 12133.4f,
+                "close" to 12100.4f,
             )
             it.findNavController().navigate(R.id.action_startFragment_to_listFragment, bundle)
         }

@@ -36,40 +36,17 @@ class HourPriceAdapter(
 
             binding.change = (item.close - item.open).significantWithSign(6, 2)
             binding.hourPriceItemChange.setTextColor(stonksColor)
-            Log.i(TAG, item.close.toString())
-            Log.i(TAG, item.open.toString())
-            Log.i(TAG, (item.close - item.open).toString())
-            Log.i(TAG, ((item.close - item.open)/item.open*100).toString())
-            Log.i(TAG,"-----------------------")
+//            Log.i(TAG, item.toString())
+//            Log.i(TAG, item.close.toString())
+//            Log.i(TAG, item.open.toString())
+//            Log.i(TAG, (item.close - item.open).toString())
+//            Log.i(TAG, ((item.close - item.open)/item.open*100).toString())
+//            Log.i(TAG,"-----------------------")
             binding.percent = ((item.close - item.open)/item.open*100).significantWithSign(6, 2)+"%"
             binding.hourPriceItemPercent.setTextColor(stonksColor)
         }
 
-        // TODO: move somewhere else
-        private fun Date.toString(format: String, locale: Locale = Locale.getDefault()): String {
-            val formatter = SimpleDateFormat(format, locale)
-            return formatter.format(this)
-        }
 
-        // TODO: move somewhere else
-        private fun Float.significantWithSign(maxLen: Int = 5, maxLast: Int = 0): String {
-            return (if (this > 0) "+" else "") +
-                    this.significant(if (this > 0) maxLen - 1 else maxLen, maxLast)
-        }
-
-        private fun Float.significant(maxLen: Int = 5, maxLast: Int = 0): String {
-            val str = this.toString()
-            if (maxLen <= 0) return str
-
-            val p = str.indexOf('.')
-            if (p >= maxLen) return str.substring(0, p) // n = 5: 12345.6 -> 12345, 1234.5 -> 1234
-
-            var l = maxLen
-            if (maxLast > 0 && p + maxLast > l) l = p + maxLast
-
-            if (l > str.length) l = str.length
-            return str.substring(0, l)
-        }
     }
 
     companion object {

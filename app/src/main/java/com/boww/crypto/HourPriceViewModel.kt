@@ -5,6 +5,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import java.text.SimpleDateFormat
 import java.util.*
@@ -19,6 +20,8 @@ class HourPriceViewModel : ViewModel() {
     )
 
     private val hourPrice: MutableLiveData<MutableList<HourPriceItemModel>> = MutableLiveData()
+    var lastHourPrice: List<ExchangeAPIResponseDataItem> = emptyList()
+
 
     fun getSearch(): LiveData<MutableList<HourPriceItemModel>> = hourPrice
 
@@ -31,31 +34,47 @@ class HourPriceViewModel : ViewModel() {
         return Calendar.getInstance().time
     }
 
-    fun refresh(searchQuery: String) {
-        viewModelScope.launch {
+    fun refresh(
+        fsym: String,
+        tsym: String,
+        market: String,
+        limit: Int,
+        ts: Long,
+    ): Job {
+        return viewModelScope.launch {
             try {
-                val date = getCurrentDateTime()
-                val dateInString = date.toString("yyyy-MM-dd")
-                Log.i(TAG, "date " + dateInString)
-                val resp =
+                var res =
                     ExchangeApi.retrofitService.getHourly(
-                        from = "BTC",
-                        to = "USD",
-                        lim = 30,
-                        ts = 1603411200,
-                    )
-                storeNewsItems(resp.data.data)
+                        from = fsym,
+                        to = tsym,
+                        lim = if (isToday(ts)) hoursSinceDayStarted(ts) + 1 else 25,
+                        ts = if (isToday(ts)) ts else dayEnd(ts),
+                    ).data.data
+
+                // api gives time on start of period so we need to correct time to show time on period end
+                // move all forward 3600, move last forward minutesSinceBeginOfHour
+                res.forEach {
+                    it.time += 3600
+                }
+                val minutes = getCurrentDateTime().toString("mm").toInt()
+                if (hoursSinceDayStarted(ts) < 24 && minutes > 0) {
+                    res.last().time += 60 * minutes - 3600
+                } else {
+                    res = res.subList(0, res.size - 1)
+                }
+
+                storeInfoItems(res.reversed())
             } catch (e: Exception) {
                 Log.i(TAG, "load failed: " + e.message)
             }
         }
     }
 
-    private fun storeNewsItems(articles: List<ExchangeAPIResponseDataItem>) {
+    private fun storeInfoItems(items: List<ExchangeAPIResponseDataItem>) {
         val list = (hourPrice.value ?: mutableListOf())
         list.clear()
 
-        articles.forEach {
+        items.forEach {
             list.add(
                 HourPriceItemModel(
                     it.time,
@@ -63,8 +82,11 @@ class HourPriceViewModel : ViewModel() {
                     it.high,
                     it.open,
                     it.close,
-                ))
+                )
+            )
         }
+        lastHourPrice = items
+        Log.i(TAG, "has values")
         hourPrice.value = list
     }
 

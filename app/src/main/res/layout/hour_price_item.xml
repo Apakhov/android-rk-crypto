@@ -32,7 +32,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@{hour}"
+            android:gravity="start"
+            android:text='@{hour, default="13:37"}'
             android:textAppearance="@style/full_day_info_daily_txt" />
 
         <TextView
@@ -40,7 +41,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@{percent}"
+            android:gravity="center"
+            android:text='@{percent, default="+0.1%"}'
             android:textAppearance="@style/full_day_info_daily_txt" />
 
         <TextView
@@ -48,7 +50,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@{change}"
+            android:gravity="center"
+            android:text='@{change, default="+12.32"}'
             android:textAppearance="@style/full_day_info_daily_txt" />
 
         <TextView
@@ -56,7 +59,8 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@{close}"
+            android:gravity="end"
+            android:text='@{close, default="12332.3"}'
             android:textAppearance="@style/full_day_info_daily_bold_txt" />
 
     </LinearLayout>
