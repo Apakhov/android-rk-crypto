@@ -28,7 +28,7 @@ class StartFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_start, container, false)
-        binding.bttnRun.setOnClickListener {
+        binding.bttnToday.setOnClickListener {
             val bundle = bundleOf(
                 "fsym" to "BTC",
                 "tsym" to "RUB",
@@ -42,39 +42,24 @@ class StartFragment : Fragment() {
             )
             it.findNavController().navigate(R.id.action_startFragment_to_listFragment, bundle)
         }
-        uselessButtonsBind()
+        binding.bttnYesterday.setOnClickListener {
+            val bundle = bundleOf(
+                "fsym" to "BTC",
+                "tsym" to "RUB",
+                "market" to "CCCAGG",
+                "limit" to 24,
+                "timestamp" to getCurrentDateTime().ts()-24*3600,
+                "high" to 12130.4f,
+                "low" to 12133.4f,
+                "open" to 12133.4f,
+                "close" to 12100.4f,
+            )
+            it.findNavController().navigate(R.id.action_startFragment_to_listFragment, bundle)
+        }
         return binding.root
     }
 
-    fun uselessButtonsBind() {
-        binding.bttnAlarm.setOnClickListener {
-            Log.i(TAG, "called alarm")
-            val intent = Intent(AlarmClock.ACTION_SET_ALARM).apply {
-                putExtra(AlarmClock.EXTRA_MESSAGE, "alaaaaaaarm!!!i!@")
-                putExtra(AlarmClock.EXTRA_HOUR, 13)
-                putExtra(AlarmClock.EXTRA_MINUTES, 37)
-            }
-            requireActivity().startActivity(intent)
-        }
-        
-        binding.bttnMap.setOnClickListener {
-            val gmmIntentUri = Uri.parse("geo:55.77,37.69")
-            val mapIntent = Intent(Intent.ACTION_VIEW, gmmIntentUri)
-            mapIntent.setPackage("com.google.android.apps.maps")
-            requireActivity().startActivity(mapIntent)
-        }
-        binding.bttnGoogle.setOnClickListener {
-            val intent = Intent(Intent.ACTION_WEB_SEARCH).apply {
-                putExtra(SearchManager.QUERY, "почему андроид хуже ios")
-            }
-            requireActivity().startActivity(intent)
-        }
-        binding.bttnLink.setOnClickListener {
-            val parsedUri: Uri = Uri.parse("https://newsapi.org/v2/everything?q=putin&from=2020-09-19&sortBy=publishedAt&apiKey=40f43a3237564359b27fe7bf511b6a51")
-            val intent = Intent(Intent.ACTION_VIEW, parsedUri)
-            requireActivity().startActivity(intent)
-        }
-    }
+
 
     companion object {
         /**

@@ -53,8 +53,6 @@ class ListFragment : Fragment(),
         sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context)
         sharedPreferences.registerOnSharedPreferenceChangeListener(this)
         arguments?.let {
-            fsym = it.getString(ARG_FROM_SYM, fsym)
-            tsym = it.getString(ARG_TO_SYM, tsym)
             market = it.getString(ARG_MARKET, market)
             limit = it.getInt(ARG_LIMIT, limit)
             ts = it.getLong(ARG_TIMESTAMP, ts)
@@ -125,23 +123,25 @@ class ListFragment : Fragment(),
             getString(R.string.to_units_value_standard)
         )!!
 
-        if ((oldFsym != fsym && fsym != "unused") || (oldTsym != tsym && tsym != "unused")) {
+        Log.i(TAG, oldTsym + " " + tsym.toString() + " call refr " + ((oldFsym != fsym) || (oldTsym != tsym)).toString())
+        if ((oldFsym != fsym) || (oldTsym != tsym)) {
             refresh()
             return
         }
 
 
         makeSpanExchangeBar(fsym, tsym)
-        binding.dateString.text = ts.toDate().toString("dd MMM yyyy")
-        binding.highValue.text = high.significant(6, 2)
-        binding.lowValue.text = low.significant(6, 2)
-        binding.openValue.text = open.significant(6, 2)
-        binding.closeValue.text = close.significant(6, 2)
-        binding.changeValue.text = (close - open).significantWithSign(6, 2)
+        binding.dateString.text = ts.toDate().toString("dd MMM yyyy").toUpperCase()+" "+tsym // мне лень фиксить
+        binding.highValue.text = high.significant(6, 2)+" "+tsym // мне лень фиксить
+        binding.lowValue.text = low.significant(6, 2)+" "+tsym // мне лень фиксить
+        binding.openValue.text = open.significant(6, 2)+" "+tsym // мне лень фиксить
+        binding.closeValue.text = close.significant(6, 2)+" "+tsym // мне лень фиксить
+        binding.changeValue.text = (close - open).significantWithSign(6, 2)+" "+tsym // мне лень фиксить
         val stonksColor = if (close - open > 0) ContextCompat.getColor(
             requireContext(),
             R.color.colorOnBlueStonks
         )
+
         else ContextCompat.getColor(requireContext(), R.color.colorOnBlueNotStonks)
         binding.changeValue.setTextColor(stonksColor)
 

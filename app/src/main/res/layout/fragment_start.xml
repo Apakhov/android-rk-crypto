@@ -9,43 +9,18 @@
         android:orientation="vertical"
         tools:context=".StartFragment">
 
-        <EditText
-            android:id="@+id/plain_text_input"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:autofillHints=""
-            android:hint="@string/bttn_run_hint"
-            android:inputType="text" />
 
         <Button
-            android:id="@+id/bttn_run"
+            android:id="@+id/bttn_today"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/bttn_run" />
-
+            android:text="@string/bttn_today" />
         <Button
-            android:id="@+id/bttn_alarm"
+            android:id="@+id/bttn_yesterday"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/bttn_alarm" />
+            android:text="@string/bttn_yesterday" />
 
-        <Button
-            android:id="@+id/bttn_map"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/bttn_map" />
-
-        <Button
-            android:id="@+id/bttn_google"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/bttn_google" />
-
-        <Button
-            android:id="@+id/bttn_link"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/bttn_link" />
 
     </LinearLayout>
 </layout>

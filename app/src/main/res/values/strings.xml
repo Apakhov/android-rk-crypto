@@ -4,7 +4,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="test_blank_fragment">Test</string>
 
-    <string name="bttn_run">Run!</string>
+    <string name="bttn_today">TODAY</string>
     <string name="bttn_alarm">AlArM!!i!i!</string>
     <string name="bttn_map">pomoika</string>
     <string name="bttn_google">yandex</string>
@@ -26,7 +26,7 @@
     <string name="exchange_dummy">BTC/USD</string>
     <string name="date_dummy">21 OCT 2020</string>
     <string name="info_high_string">HIGH</string>
-    <string name="money_dummy">2163 USD</string>
+    <string name="money_dummy">0</string>
     <string name="num_days_key">num_days_key</string>
     <string name="num_days_key_pref_name">Amount of days load</string>
     <string name="units_key">units_key_key</string>
@@ -41,4 +41,5 @@
     <string name="set_num_days_ok_num">amount of days changed</string>
     <string name="set_num_days_not_num">not a number in input</string>
     <string name="hourly_list_title">Daily List</string>
+    <string name="bttn_yesterday">YESTERDAY</string>
 </resources>
