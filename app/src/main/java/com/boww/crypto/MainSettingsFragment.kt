@@ -20,7 +20,7 @@ class MainSettingsFragment : PreferenceFragmentCompat() {
             }
             try {
                 val v = newVal.toInt()
-                if (v < 1 || v > 100) {
+                if (v < 2 || v > 100) {
                     Toast.makeText(context, getString(R.string.set_num_days_bad_num), Toast.LENGTH_LONG).show()
                     return@setOnPreferenceChangeListener false
                 }

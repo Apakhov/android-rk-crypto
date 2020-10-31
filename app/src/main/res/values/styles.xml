@@ -99,4 +99,101 @@
             @font/montserrat_bold
         </item>
     </style>
+
+    <style name="current_info_exchange_txt">
+        <item name="android:textSize">
+            42sp
+        </item>
+        <item name="android:fontFamily">
+            @font/montserrat_extrabold
+        </item>
+    </style>
+
+    <style name="current_info_money_txt">
+        <item name="android:textSize">
+            64sp
+        </item>
+        <item name="android:textColor">
+            @color/colorMainBlack
+        </item>
+        <item name="android:fontFamily">
+            @font/montserrat_extrabold
+        </item>
+    </style>
+
+    <style name="current_info_market_txt">
+        <item name="android:textSize">
+            42sp
+        </item>
+        <item name="android:textColor">
+            @color/colorMainPink
+        </item>
+        <item name="android:fontFamily">
+            @font/montserrat_extrabold
+        </item>
+    </style>
+
+    <style name="daily_price_list_header_txt">
+        <item name="android:textSize">
+            24sp
+        </item>
+        <item name="android:textColor">
+            @color/colorMainBlack
+        </item>
+        <item name="android:fontFamily">
+            @font/montserrat_semibold
+        </item>
+    </style>
+
+    <style name="date_day_txt">
+        <item name="android:textSize">
+            60sp
+        </item>
+        <item name="android:textColor">
+            @color/colorMainWhite
+        </item>
+        <item name="android:fontFamily">
+            @font/montserrat_extrabold
+        </item>
+    </style>
+
+    <style name="date_month_year">
+        <item name="android:textSize">
+            14sp
+        </item>
+        <item name="android:textColor">
+            @color/colorMainPink
+        </item>
+        <item name="android:fontFamily">
+            @font/montserrat
+        </item>
+    </style>
+
+    <style name="daily_item_metric_name">
+        <item name="android:textSize">
+            16sp
+        </item>
+        <item name="android:textColor">
+            @color/colorMainGrey
+        </item>
+        <item name="android:fontFamily">
+            @font/lato
+        </item>
+    </style>
+
+    <style name="daily_item_metric_value">
+        <item name="android:textSize">
+            16sp
+        </item>
+        <item name="android:textColor">
+            @color/colorMainBlack
+        </item>
+        <item name="android:fontFamily">
+            @font/lato_bold
+        </item>
+        <item name="android:textAlignment">
+            viewEnd
+        </item>
+    </style>
+
 </resources>

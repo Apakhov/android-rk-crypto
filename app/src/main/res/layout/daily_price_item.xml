@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="day"
+            type="String" />
+        <variable
+            name="monthYear"
+            type="String" />
+        <variable
+            name="open"
+            type="String" />
+        <variable
+            name="close"
+            type="String" />
+        <variable
+            name="change"
+            type="String" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="2.5dp"
+        android:paddingBottom="2.5dp"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_width="95dp"
+            android:layout_height="85dp"
+            android:background="@drawable/blue_square"
+            >
+
+            <TextView
+                android:id="@+id/date_day"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="-15dp"
+                android:text="@{day}"
+                android:textAppearance="@style/date_day_txt" />
+
+            <TextView
+                android:id="@+id/date_month_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/date_day"
+                android:layout_marginTop="-10dp"
+                android:layout_marginBottom="5dp"
+                android:text="@{monthYear}"
+                android:textAppearance="@style/date_month_year" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            >
+
+            <TextView
+                android:id="@+id/daily_open_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="@dimen/daily_list_item_top_margin"
+                android:layout_marginStart="@dimen/daily_list_item_left_margin"
+                android:text="@string/info_open_string"
+                android:textAppearance="@style/daily_item_metric_name" />
+
+
+            <TextView
+                android:id="@+id/daily_open_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/daily_list_item_top_margin"
+                android:layout_marginEnd="@dimen/daily_list_item_right_margin"
+                android:text="@{open}"
+                android:textAppearance="@style/daily_item_metric_value" />
+
+            <TextView
+                android:id="@+id/daily_close_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/daily_open_string"
+                android:layout_marginTop="@dimen/daily_list_item_top_margin"
+                android:layout_marginStart="@dimen/daily_list_item_left_margin"
+                android:text="@string/info_close_string"
+                android:textAppearance="@style/daily_item_metric_name" />
+
+
+            <TextView
+                android:id="@+id/daily_close_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/daily_open_value"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/daily_list_item_top_margin"
+                android:layout_marginEnd="@dimen/daily_list_item_right_margin"
+                android:text="@{close}"
+                android:textAppearance="@style/daily_item_metric_value" />
+
+            <TextView
+                android:id="@+id/daily_change_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/daily_close_string"
+                android:layout_marginTop="@dimen/daily_list_item_top_margin"
+                android:layout_marginStart="@dimen/daily_list_item_left_margin"
+                android:text="@string/info_change_string"
+                android:textAppearance="@style/daily_item_metric_name" />
+
+
+            <TextView
+                android:id="@+id/daily_change_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/daily_close_value"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/daily_list_item_top_margin"
+                android:layout_marginEnd="@dimen/daily_list_item_right_margin"
+                android:text="@{change}"
+                android:textAppearance="@style/daily_item_metric_value" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</layout>

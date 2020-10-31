@@ -1,12 +1,26 @@
 package com.boww.crypto
 
+import android.text.SpannableString
+import android.text.SpannableStringBuilder
+import android.text.style.ForegroundColorSpan
 import android.util.Log
 import java.text.SimpleDateFormat
 import java.util.*
+import kotlin.math.abs
 
 fun Date.toString(format: String, locale: Locale = Locale.getDefault()): String {
     val formatter = SimpleDateFormat(format, locale)
     return formatter.format(this)
+}
+
+fun Date.toCalendar(): Calendar {
+    val cal = Calendar.getInstance()
+    cal.time = this
+    return cal
+}
+
+fun Date.ts(): Long {
+    return this.time / 1000
 }
 
 fun Float.significantWithSign(maxLen: Int = 5, maxLast: Int = 0): String {
@@ -29,41 +43,85 @@ fun Float.significant(maxLen: Int = 5, maxLast: Int = 0): String {
     return str.substring(0, l)
 }
 
-fun dayEnd(ts: Long, locale: Locale = Locale.getDefault()): Long {
-    //current + (sec in day - sec passed since day begin)
-    val dayInZone = ts + (24 * 3600 - (ts % (24 * 3600)))
-    val utcOffH = dayInZone.toDate().toString("HH", Locale.UK).toInt()
-    val utcOffM = dayInZone.toDate().toString("mm", Locale.UK).toInt()
-    val utcOff =
-        if (utcOffH * 60 * utcOffM < 12 * 60) -(utcOffH * 60 - utcOffM) * 60 else 24 * 3600 - (utcOffH * 60 - utcOffM) * 60
-
-    Log.i("DATA_TAG day_end ",dayInZone.toString()+" "+utcOffH+" "+ utcOffM+" "+utcOff)
-    return dayInZone + utcOff
+fun isToday(date: Date): Boolean {
+    return (beginOfDay(getCurrentDate()).time == beginOfDay(date).time)
 }
 
-fun hoursSinceDayStarted(ts: Long, locale: Locale = Locale.getDefault()): Int {
-    val hours = ts.toDate().toString("HH", locale).toInt()
-    val add = if (isToday(ts, locale)) 0 else 24
-    Log.i("DATE_TAG hours_sice",ts.toString()+" "+ hours.toString() + " " + add.toString())
-    return hours + add
-}
-
-fun isToday(ts: Long, locale: Locale = Locale.getDefault()): Boolean {
-    Log.i("DATE_TAG isToday", (getCurrentDateTime().toString("yyyy-MM-dd", locale) ==
-            ts.toDate().toString("yyyy-MM-dd", locale)).toString())
-    Log.i("TAG is today",getCurrentDateTime().toString("yyyy-MM-dd", locale)+" "+ts.toDate().toString("yyyy-MM-dd", locale))
-    return (getCurrentDateTime().toString("yyyy-MM-dd", locale) ==
-            ts.toDate().toString("yyyy-MM-dd", locale))
-}
-
-fun getCurrentDateTime(): Date {
+fun getCurrentDate(): Date {
     return Calendar.getInstance().time
-}
-
-fun Date.ts(): Long {
-    return this.time / 1000
 }
 
 fun Long.toDate(): Date {
     return Date(this * 1000)
+}
+
+fun buildSpanExchangeBar(
+    fSym: String, fColor: Int,
+    tSym: String, tColor: Int,
+    sepSym: String, sepColor: Int
+)
+        : SpannableStringBuilder{
+    val builder = SpannableStringBuilder()
+
+    val str1 = SpannableString(fSym)
+    str1.setSpan(ForegroundColorSpan(fColor), 0, str1.length, 0)
+    builder.append(str1)
+
+    val str2 = SpannableString(sepSym)
+    str2.setSpan(ForegroundColorSpan(sepColor), 0, str2.length, 0)
+    builder.append(str2)
+
+    val str3 = SpannableString(tSym)
+    str3.setSpan(ForegroundColorSpan(tColor), 0, str3.length, 0)
+    builder.append(str3)
+
+    return builder
+}
+
+fun beginOfHour(date: Date): Date {
+    val calendar = date.toCalendar()
+
+    calendar.set(
+        calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH),
+        calendar.get(Calendar.DATE), calendar.get(Calendar.HOUR_OF_DAY), 0, 0,
+    )
+    calendar.set(Calendar.MILLISECOND, 0)
+    return calendar.time
+}
+
+fun endOfHour(date: Date): Date {
+    val calendar = date.toCalendar()
+
+    calendar.set(
+        calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH),
+        calendar.get(Calendar.DATE), calendar.get(Calendar.HOUR_OF_DAY), 59, 59
+    )
+    calendar.set(Calendar.MILLISECOND, 999)
+    return calendar.time
+}
+
+fun hoursBetween(date1: Date, date2: Date): Long {
+    return abs(date1.time - date2.time) / (60 * 60 * 1000)
+}
+
+fun beginOfDay(date: Date): Date {
+    val calendar = date.toCalendar()
+
+    calendar.set(
+        calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH),
+        calendar.get(Calendar.DATE), 0, 0, 0
+    )
+    calendar.set(Calendar.MILLISECOND, 0)
+    return calendar.time
+}
+
+fun endOfDay(date: Date): Date {
+    val calendar = date.toCalendar()
+
+    calendar.set(
+        calendar.get(Calendar.YEAR), calendar.get(Calendar.MONTH),
+        calendar.get(Calendar.DATE), 23, 59, 59
+    )
+    calendar.set(Calendar.MILLISECOND, 999)
+    return calendar.time
 }

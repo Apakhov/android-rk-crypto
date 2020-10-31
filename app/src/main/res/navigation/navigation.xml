@@ -3,30 +3,30 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/navigation"
-    app:startDestination="@id/startFragment">
+    app:startDestination="@id/dailyPriceListFragment">
 
     <fragment
-        android:id="@+id/startFragment"
-        android:name="com.boww.crypto.StartFragment"
-        android:label="fragment_start"
-        tools:layout="@layout/fragment_start" >
+        android:id="@+id/dailyPriceListFragment"
+        android:name="com.boww.crypto.DailyPriceListFragment"
+        android:label="@string/main_title"
+        tools:layout="@layout/fragment_daily_price_list" >
         <action
-            android:id="@+id/action_startFragment_to_listFragment"
-            app:destination="@id/listFragment" />
+            android:id="@+id/action_dailyPriceListFragment_to_dayOverviewFragment"
+            app:destination="@id/dayOverviewFragment" />
         <action
-            android:id="@+id/action_startFragment_to_mainSettingsFragment"
+            android:id="@+id/action_dailyPriceListFragment_to_mainSettingsFragment"
             app:destination="@id/mainSettingsFragment" />
     </fragment>
     <fragment
-        android:id="@+id/listFragment"
-        android:name="com.boww.crypto.ListFragment"
+        android:id="@+id/dayOverviewFragment"
+        android:name="com.boww.crypto.DayOverviewFragment"
         android:label="@string/hourly_list_title"
-        tools:layout="@layout/fragment_list" >
+        tools:layout="@layout/fragment_day_overview" >
         <argument
             android:name="request_string"
             app:argType="string" />
         <action
-            android:id="@+id/action_listFragment_to_mainSettingsFragment2"
+            android:id="@+id/action_dayOverviewFragment_to_mainSettingsFragment"
             app:destination="@id/mainSettingsFragment" />
     </fragment>
     <fragment

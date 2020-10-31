@@ -8,6 +8,7 @@
     <color name="colorMainPink">#FFC4DD</color>
     <color name="colorMainBlack">#000000</color>
     <color name="colorMainWhite">#FFFFFF</color>
+    <color name="colorMainGrey">#B5B5B5</color>
 
     <color name="colorStonks">#04D600</color>
     <color name="colorNotStonks">#FF5F5F</color>

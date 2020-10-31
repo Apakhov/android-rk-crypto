@@ -18,6 +18,14 @@
         android:entryValues="@array/to_units_array_values"
         android:summary="%s"
         />
+    <ListPreference
+        android:key="@string/market_key"
+        android:title="@string/market_pref_name"
+        android:defaultValue="@string/market_value_standard"
+        android:entries="@array/market_array_values"
+        android:entryValues="@array/market_array_values"
+        android:summary="%s"
+        />
 
     <EditTextPreference
         android:key="@string/num_days_key"

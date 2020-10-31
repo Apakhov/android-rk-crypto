@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="currentPrice"
+            type="String" />
+        <variable
+            name="market"
+            type="String" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorMainBlue"
+        android:orientation="horizontal"
+        tools:context=".DailyPriceListFragment">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/exchange_string"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/current_info_left_margin"
+                android:layout_marginTop="@dimen/current_info_top_margin"
+                android:textAppearance="@style/current_info_exchange_txt" />
+
+            <TextView
+                android:id="@+id/current_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/exchange_string"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/current_info_right_margin"
+                android:layout_marginTop="-15dp"
+                android:gravity="right"
+                android:text="@{currentPrice}"
+                android:textAppearance="@style/current_info_money_txt" />
+
+            <TextView
+                android:id="@+id/stock_value"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/current_value"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/current_info_left_margin"
+                android:layout_marginTop="-15dp"
+                android:text="@{market}"
+                android:textAppearance="@style/current_info_market_txt" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@drawable/white_rect">
+
+            <TextView
+                android:id="@+id/daily_price_list_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="@dimen/current_info_left_margin"
+                android:layout_marginTop="@dimen/current_info_top_margin"
+                android:text="@string/daily_price_list_header"
+                android:textAppearance="@style/daily_price_list_header_txt" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/daily_price_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/daily_price_list_header"
+                android:layout_marginStart="@dimen/current_info_left_margin"
+                android:layout_marginTop="@dimen/current_info_top_margin"
+                tools:listitem="@layout/daily_price_item" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</layout>

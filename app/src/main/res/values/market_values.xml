@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="market_array_values">
+        <item>@string/market_name_CCCAGG</item>
+        <item>@string/market_name_BTCAlpha</item>
+        <item>@string/market_name_BTCMarkets</item>
+        <item>@string/market_name_BTCTurk</item>
+        <item>@string/market_name_Bibox</item>
+        <item>@string/market_name_Binance</item>
+        <item>@string/market_name_Bit2C</item>
+        <item>@string/market_name_BitBank</item>
+        <item>@string/market_name_BitBay</item>
+        <item>@string/market_name_BitMart</item>
+        <item>@string/market_name_BitTrex</item>
+        <item>@string/market_name_Bitfinex</item>
+        <item>@string/market_name_Bithumb</item>
+        <item>@string/market_name_Bitso</item>
+        <item>@string/market_name_Bitstamp</item>
+        <item>@string/market_name_Bleutrade</item>
+        <item>@string/market_name_Cexio</item>
+        <item>@string/market_name_CoinCorner</item>
+        <item>@string/market_name_CoinDeal</item>
+        <item>@string/market_name_CoinFalcon</item>
+        <item>@string/market_name_CoinJar</item>
+        <item>@string/market_name_Coinbase</item>
+        <item>@string/market_name_Coincheck</item>
+        <item>@string/market_name_Coinfloor</item>
+        <item>@string/market_name_Coinmate</item>
+        <item>@string/market_name_Coinone</item>
+        <item>@string/market_name_DSX</item>
+        <item>@string/market_name_Exmo</item>
+        <item>@string/market_name_Gateio</item>
+        <item>@string/market_name_Gemini</item>
+        <item>@string/market_name_HitBTC</item>
+        <item>@string/market_name_HuobiPro</item>
+        <item>@string/market_name_Korbit</item>
+        <item>@string/market_name_Kraken</item>
+        <item>@string/market_name_Kuna</item>
+        <item>@string/market_name_Liqnet</item>
+        <item>@string/market_name_Liquid</item>
+        <item>@string/market_name_Luno</item>
+        <item>@string/market_name_OKCoin</item>
+        <item>@string/market_name_OKEX</item>
+        <item>@string/market_name_Poloniex</item>
+        <item>@string/market_name_Upbit</item>
+        <item>@string/market_name_ZBG</item>
+        <item>@string/market_name_Zaif</item>
+        <item>@string/market_name_aax</item>
+        <item>@string/market_name_bequant</item>
+        <item>@string/market_name_binanceusa</item>
+        <item>@string/market_name_bitFlyer</item>
+        <item>@string/market_name_bitcoincom</item>
+        <item>@string/market_name_bitflyereu</item>
+        <item>@string/market_name_bitflyerus</item>
+        <item>@string/market_name_bitmax</item>
+        <item>@string/market_name_bitpanda</item>
+        <item>@string/market_name_bw</item>
+        <item>@string/market_name_coinfield</item>
+        <item>@string/market_name_currency</item>
+        <item>@string/market_name_etoro</item>
+        <item>@string/market_name_ftx</item>
+        <item>@string/market_name_gopax</item>
+        <item>@string/market_name_huobijapan</item>
+        <item>@string/market_name_huobikorea</item>
+        <item>@string/market_name_itBit</item>
+        <item>@string/market_name_lmax</item>
+    </array>
+
+    <string name="market_name_CCCAGG">CCCAGG</string>
+    <string name="market_name_BTCAlpha">BTCAlpha</string>
+    <string name="market_name_BTCMarkets">BTCMarkets</string>
+    <string name="market_name_BTCTurk">BTCTurk</string>
+    <string name="market_name_Bibox">Bibox</string>
+    <string name="market_name_Binance">Binance</string>
+    <string name="market_name_Bit2C">Bit2C</string>
+    <string name="market_name_BitBank">BitBank</string>
+    <string name="market_name_BitBay">BitBay</string>
+    <string name="market_name_BitMart">BitMart</string>
+    <string name="market_name_BitTrex">BitTrex</string>
+    <string name="market_name_Bitfinex">Bitfinex</string>
+    <string name="market_name_Bithumb">Bithumb</string>
+    <string name="market_name_Bitso">Bitso</string>
+    <string name="market_name_Bitstamp">Bitstamp</string>
+    <string name="market_name_Bleutrade">Bleutrade</string>
+    <string name="market_name_Cexio">Cexio</string>
+    <string name="market_name_CoinCorner">CoinCorner</string>
+    <string name="market_name_CoinDeal">CoinDeal</string>
+    <string name="market_name_CoinFalcon">CoinFalcon</string>
+    <string name="market_name_CoinJar">CoinJar</string>
+    <string name="market_name_Coinbase">Coinbase</string>
+    <string name="market_name_Coincheck">Coincheck</string>
+    <string name="market_name_Coinfloor">Coinfloor</string>
+    <string name="market_name_Coinmate">Coinmate</string>
+    <string name="market_name_Coinone">Coinone</string>
+    <string name="market_name_DSX">DSX</string>
+    <string name="market_name_Exmo">Exmo</string>
+    <string name="market_name_Gateio">Gateio</string>
+    <string name="market_name_Gemini">Gemini</string>
+    <string name="market_name_HitBTC">HitBTC</string>
+    <string name="market_name_HuobiPro">HuobiPro</string>
+    <string name="market_name_Independent">IndependentReser</string>
+    <string name="market_name_Korbit">Korbit</string>
+    <string name="market_name_Kraken">Kraken</string>
+    <string name="market_name_Kucoin">Kucoin</string>
+    <string name="market_name_Kuna">Kuna</string>
+    <string name="market_name_Liqnet">Liqnet</string>
+    <string name="market_name_Liquid">Liquid</string>
+    <string name="market_name_Luno">Luno</string>
+    <string name="market_name_OKCoin">OKCoin</string>
+    <string name="market_name_OKEX">OKEX</string>
+    <string name="market_name_Poloniex">Poloniex</string>
+    <string name="market_name_TheRockTrad">TheRockTrading</string>
+    <string name="market_name_Upbit">Upbit</string>
+    <string name="market_name_ZBG">ZBG</string>
+    <string name="market_name_Zaif">Zaif</string>
+    <string name="market_name_aax">aax</string>
+    <string name="market_name_bequant">bequant</string>
+    <string name="market_name_binanceusa">binanceusa</string>
+    <string name="market_name_bitFlyer">bitFlyer</string>
+    <string name="market_name_bitcoincom">bitcoincom</string>
+    <string name="market_name_bitflyereu">bitflyereu</string>
+    <string name="market_name_bitflyerus">bitflyerus</string>
+    <string name="market_name_bithumbglob">bithumbglobal</string>
+    <string name="market_name_bitmax">bitmax</string>
+    <string name="market_name_bitpanda">bitpanda</string>
+    <string name="market_name_blockchainc">blockchaincom</string>
+    <string name="market_name_bw">bw</string>
+    <string name="market_name_coinfield">coinfield</string>
+    <string name="market_name_currency">currency</string>
+    <string name="market_name_etoro">etoro</string>
+    <string name="market_name_ftx">ftx</string>
+    <string name="market_name_gopax">gopax</string>
+    <string name="market_name_huobijapan">huobijapan</string>
+    <string name="market_name_huobikorea">huobikorea</string>
+    <string name="market_name_itBit">itBit</string>
+    <string name="market_name_lmax">lmax</string>
+</resources>

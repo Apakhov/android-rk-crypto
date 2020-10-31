@@ -15,7 +15,7 @@ data class ExchangeAPIResponse(
 )
 
 data class ExchangeAPIResponseData(
-    @Json(name = "Aggregated") val aggregated: Boolean,
+//    @Json(name = "Aggregated") val aggregated: Boolean,
     @Json(name = "TimeFrom") val timeFrom: String,
     @Json(name = "TimeTo") val timeTo: String,
     @Json(name = "Data") val data: List<ExchangeAPIResponseDataItem>
@@ -33,7 +33,7 @@ data class ExchangeAPIResponseDataItem(
     @Json(name = "conversionSymbol") val conversionSymbol: String,
 )
 
-object ExchangeApi {
+object ExchangeAPI {
     private const val BASE_URL = "https://min-api.cryptocompare.com"
 
     private val moshi = Moshi.Builder()
@@ -51,7 +51,6 @@ object ExchangeApi {
             @Query("fsym") from: String,
             @Query("tsym") to: String,
             @Query("limit") lim: Int,
-            @Query("toTs") ts: Long,
             @Query("e") market: String = "CCCAGG",
         ): ExchangeAPIResponse
         @GET("/data/v2/histohour")
@@ -59,15 +58,6 @@ object ExchangeApi {
             @Query("fsym") from: String,
             @Query("tsym") to: String,
             @Query("limit") lim: Int,
-            @Query("toTs") ts: Long,
-            @Query("e") market: String = "CCCAGG",
-        ): ExchangeAPIResponse
-        @GET("/data/v2/histominute")
-        suspend fun getMinutely(
-            @Query("fsym") from: String,
-            @Query("tsym") to: String,
-            @Query("limit") lim: Int,
-//            @Query("aggregate") aggr: Int,
             @Query("toTs") ts: Long,
             @Query("e") market: String = "CCCAGG",
         ): ExchangeAPIResponse

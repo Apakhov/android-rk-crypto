@@ -3,7 +3,13 @@
     <dimen name="full_day_info_left_margin">24dp</dimen>
     <dimen name="full_day_info_right_margin">24dp</dimen>
     <dimen name="full_day_info_top_margin">12dp</dimen>
-    <dimen name="textview_width">150dp</dimen>
-    <dimen name="ball_radius">30dp</dimen>
-    <dimen name="font_size">16sp</dimen>
+
+    <dimen name="current_info_left_margin">24dp</dimen>
+    <dimen name="current_info_right_margin">24dp</dimen>
+    <dimen name="current_info_top_margin">12dp</dimen>
+
+    <dimen name="daily_list_item_left_margin">12dp</dimen>
+    <dimen name="daily_list_item_right_margin">12dp</dimen>
+    <dimen name="daily_list_item_top_margin">8dp</dimen>
+
 </resources>

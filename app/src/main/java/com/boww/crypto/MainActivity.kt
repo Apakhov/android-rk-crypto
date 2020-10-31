@@ -1,13 +1,15 @@
 package com.boww.crypto
 
-import android.app.PendingIntent.getActivity
+import android.graphics.drawable.ColorDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
+import androidx.core.content.ContextCompat
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.NavigationUI
+import kotlin.time.ExperimentalTime
 
 class MainActivity : AppCompatActivity() {
     private lateinit var navHostFragment: NavHostFragment
@@ -16,14 +18,12 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        supportActionBar?.elevation = 0f
+
         navHostFragment =
             supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
-
-        NavigationUI.setupActionBarWithNavController(
-            this,
-            navHostFragment.navController,
-//            appBarConfiguration
-        )
+        NavigationUI.setupActionBarWithNavController(this, navHostFragment.navController,)
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
@@ -34,23 +34,25 @@ class MainActivity : AppCompatActivity() {
         return true
     }
 
+    @ExperimentalTime
     override fun onOptionsItemSelected(item: MenuItem): Boolean =
         when (item.itemId) {
             R.id.menu_refresh_item -> {
-                if (navHostFragment.navController.currentDestination?.id == R.id.listFragment) {
-                    val list = navHostFragment.childFragmentManager.primaryNavigationFragment as ListFragment
+                if (navHostFragment.navController.currentDestination?.id == R.id.dailyPriceListFragment) {
+                    val list = navHostFragment.childFragmentManager.primaryNavigationFragment as DailyPriceListFragment
                     list.refresh()
+                }
+                else if (navHostFragment.navController.currentDestination?.id == R.id.dayOverviewFragment) {
+                    val overview = navHostFragment.childFragmentManager.primaryNavigationFragment as DayOverviewFragment
+                    overview.refresh()
                 }
                 true
             }
             R.id.menu_settings_item -> {
-                Log.i(TAG, navHostFragment.navController.currentDestination?.id.toString())
-                Log.i(TAG, R.id.listFragment.toString())
-                Log.i(TAG, R.id.startFragment.toString())
-                if (navHostFragment.navController.currentDestination?.id == R.id.startFragment)
-                    navHostFragment.navController.navigate(R.id.action_startFragment_to_mainSettingsFragment)
-                if (navHostFragment.navController.currentDestination?.id == R.id.listFragment)
-                    navHostFragment.navController.navigate(R.id.action_listFragment_to_mainSettingsFragment2)
+                if (navHostFragment.navController.currentDestination?.id == R.id.dailyPriceListFragment)
+                    navHostFragment.navController.navigate(R.id.action_dailyPriceListFragment_to_mainSettingsFragment)
+                if (navHostFragment.navController.currentDestination?.id == R.id.dayOverviewFragment)
+                    navHostFragment.navController.navigate(R.id.action_dayOverviewFragment_to_mainSettingsFragment)
                 true
             }
             else -> super.onOptionsItemSelected(item)

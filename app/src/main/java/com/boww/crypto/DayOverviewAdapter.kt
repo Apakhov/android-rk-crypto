@@ -7,13 +7,12 @@ import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
 import com.boww.crypto.databinding.HourPriceItemBinding
-import java.text.SimpleDateFormat
 import java.util.*
 
-class HourPriceAdapter(
+class DayOverviewAdapter(
     private val context: Context,
-    private val hourPrices: List<HourPriceViewModel.HourPriceItemModel>
-) : RecyclerView.Adapter<HourPriceAdapter.ViewHolder>() {
+    private val hourPrices: List<DayOverviewViewModel.HourPriceItem>
+) : RecyclerView.Adapter<DayOverviewAdapter.ViewHolder>() {
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder =
         ViewHolder(HourPriceItemBinding.inflate(LayoutInflater.from(context), parent, false))
 
@@ -26,7 +25,7 @@ class HourPriceAdapter(
     inner class ViewHolder(private val binding: HourPriceItemBinding) :
         RecyclerView.ViewHolder(binding.root) {
 
-        fun bind(item: HourPriceViewModel.HourPriceItemModel) {
+        fun bind(item: DayOverviewViewModel.HourPriceItem) {
             binding.hour = Date(item.ts * 1000).toString("HH:mm")
 
             binding.close = item.close.significant(7, 0)
@@ -36,29 +35,16 @@ class HourPriceAdapter(
 
             binding.change = (item.close - item.open).significantWithSign(6, 2)
             binding.hourPriceItemChange.setTextColor(stonksColor)
-//            Log.i(TAG, item.toString())
-//            Log.i(TAG, item.close.toString())
-//            Log.i(TAG, item.open.toString())
-//            Log.i(TAG, (item.close - item.open).toString())
-//            Log.i(TAG, ((item.close - item.open)/item.open*100).toString())
-//            Log.i(TAG,"-----------------------")
             binding.percent = ((item.close - item.open)/item.open*100).significantWithSign(6, 2)+"%"
             binding.hourPriceItemPercent.setTextColor(stonksColor)
+
+            Log.i(TAG, "Bind done. Item: ${binding.hour}")
         }
-
-
     }
 
     companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @return A new instance of fragment StartFragment.
-         */
-        // TODO: Rename and change types and number of parameters
         @JvmStatic
-        fun newInstance() = StartFragment()
+        fun newInstance() = DailyPriceListFragment()
 
         private const val TAG = "HourPriceAdapter"
     }
