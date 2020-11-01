@@ -39,7 +39,7 @@ class DailyPriceListFragment : Fragment() {
     }
 
     fun refresh() {
-        model.refresh(settings.fsym, settings.tsym, settings.market, settings.days-1)
+        model.refresh(settings.fsym, settings.tsym, settings.market, settings.days)
         Log.i(TAG, "Refreshed")
     }
 

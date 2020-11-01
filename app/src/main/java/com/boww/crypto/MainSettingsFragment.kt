@@ -20,7 +20,7 @@ class MainSettingsFragment : PreferenceFragmentCompat() {
             }
             try {
                 val v = newVal.toInt()
-                if (v < 2 || v > 100) {
+                if (v < NUM_DAYS_MIN || v > NUM_DAYS_MAX) {
                     Toast.makeText(context, getString(R.string.set_num_days_bad_num), Toast.LENGTH_LONG).show()
                     return@setOnPreferenceChangeListener false
                 }
@@ -32,5 +32,10 @@ class MainSettingsFragment : PreferenceFragmentCompat() {
                 false
             }
         }
+    }
+
+    companion object {
+        private const val NUM_DAYS_MIN = 1
+        private const val NUM_DAYS_MAX = 80
     }
 }

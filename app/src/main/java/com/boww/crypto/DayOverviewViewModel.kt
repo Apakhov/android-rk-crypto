@@ -49,15 +49,9 @@ class DayOverviewViewModel : ViewModel() {
     }
 
     private fun storeDayInfo(items: List<ExchangeAPIResponseDataItem>) {
-        var open = items.first().open
-        var close = items.first().close
-
-        var high = 0f
-        var low = Float.MAX_VALUE
-        items.forEach {
-            high = if (it.high > high) it.high else high
-            low = if (it.low < low) it.low else low
-        }
+        val (low, high, _, close) = calculateAggregationMetrics(items)
+        // special rule, because in this fragment we used to use "close" field
+        val open = items.first().close
 
         dayInfo.value = DayPriceInfo(items.first().time, low, high, open, close)
     }
@@ -68,7 +62,7 @@ class DayOverviewViewModel : ViewModel() {
             try {
                 Log.i(TAG, "Refreshing with: fsym=$fsym, tsym=$tsym, limit=$limit, ts=$ts, market=$market")
                 val resp = ExchangeAPI.retrofitService.getHourly(fsym, tsym, limit, ts, market)
-                var priceData = resp.data.data
+                val priceData = resp.data.data
 
                 // api gives time on start of period so we need to correct time to show time on period end
                 // move all forward 1 hour, move last forward minutesSinceBeginOfHour

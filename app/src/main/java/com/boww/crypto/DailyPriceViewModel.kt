@@ -21,16 +21,11 @@ class DailyPriceViewModel : ViewModel() {
     fun getDailyPriceList(): LiveData<MutableList<DailyPriceItem>> = dailyPriceList
     fun getCurrentPrice(): LiveData<Float> = currentPrice
 
-
-    private fun storeDailyPriceItems(a: List<ExchangeAPIResponseDataItem>) {
+    private fun storeDailyPriceItems(a: List<DailyPriceItem>) {
         var priceList = dailyPriceList.value
         priceList = priceList ?: mutableListOf()
         priceList.clear()
-
-        a.forEach {
-            priceList.add(DailyPriceItem(it.time, it.open, it.close))
-        }
-
+        priceList.addAll(a)
         dailyPriceList.value = priceList
     }
 
@@ -38,12 +33,24 @@ class DailyPriceViewModel : ViewModel() {
         currentPrice.value = p
     }
 
-    fun refresh(fsym: String, tsym: String, market: String, limit: Int) {
+    fun refresh(fsym: String, tsym: String, market: String, days: Int) {
         viewModelScope.launch {
             try {
-                Log.i(TAG, "Refreshing with: fsym=$fsym, tsym=$tsym, limit=$limit, market=$market")
-                val resp = ExchangeAPI.retrofitService.getDaily(fsym, tsym, limit, market)
-                val priceData = resp.data.data.reversed()
+                val now = beginOfHour(getCurrentDate())
+                val beginOfToday = beginOfDay(now)
+                // (days - 1) * 24 means full days without today
+                // hoursBetween(now, beginOfToday) hours count of current day, including bounds
+                val limit = ((days - 1) * DAY_HOURS + hoursBetween(now, beginOfToday)).toInt()
+                val ts = now.ts()
+
+                Log.i(TAG, "Refreshing with: fsym=$fsym, tsym=$tsym, limit=$limit, ts=$ts, market=$market")
+                val resp = ExchangeAPI.retrofitService.getHourly(fsym, tsym, limit, ts, market)
+
+                val priceDataAggregated = resp.data.data.chunked(DAY_HOURS) {
+                    val (_, _, open, close) = calculateAggregationMetrics(it)
+                    return@chunked DailyPriceItem(it[0].time, open, close)
+                }
+                val priceData = priceDataAggregated.reversed()
 
                 storeDailyPriceItems(priceData)
                 storeCurrentPrice(priceData[0].close) // API always returns 2 elements at least
@@ -57,5 +64,6 @@ class DailyPriceViewModel : ViewModel() {
 
     companion object {
         private const val TAG = "DailyPriceViewModel"
+        private const val DAY_HOURS = 24
     }
 }

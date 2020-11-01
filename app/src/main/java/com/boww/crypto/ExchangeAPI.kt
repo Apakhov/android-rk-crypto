@@ -46,13 +46,6 @@ object ExchangeAPI {
         .build()
 
     interface ExchangeAPIService {
-        @GET("/data/v2/histoday")
-        suspend fun getDaily(
-            @Query("fsym") from: String,
-            @Query("tsym") to: String,
-            @Query("limit") lim: Int,
-            @Query("e") market: String = "CCCAGG",
-        ): ExchangeAPIResponse
         @GET("/data/v2/histohour")
         suspend fun getHourly(
             @Query("fsym") from: String,
@@ -66,4 +59,19 @@ object ExchangeAPI {
     val retrofitService: ExchangeAPIService by lazy {
         retrofit.create(ExchangeAPIService::class.java)
     }
+}
+
+data class AggregationResult(val low: Float, val high: Float, val open: Float, val close: Float)
+fun calculateAggregationMetrics(items: List<ExchangeAPIResponseDataItem>): AggregationResult {
+    val open = items.first().open
+    val close = items.last().close
+
+    var high = 0f
+    var low = Float.MAX_VALUE
+    items.forEach {
+        high = if (it.high > high) it.high else high
+        low = if (it.low < low) it.low else low
+    }
+
+    return AggregationResult(low, high, open, close)
 }
