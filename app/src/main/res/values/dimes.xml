@@ -4,11 +4,12 @@
     <dimen name="full_day_info_right_margin">24dp</dimen>
     <dimen name="full_day_info_top_margin">12dp</dimen>
 
-    <dimen name="current_info_left_margin">24dp</dimen>
-    <dimen name="current_info_right_margin">24dp</dimen>
+    <dimen name="current_info_left_margin">12dp</dimen>
+    <dimen name="current_info_left_margin_header">24dp</dimen>
+    <dimen name="current_info_right_margin">12dp</dimen>
     <dimen name="current_info_top_margin">12dp</dimen>
 
-    <dimen name="daily_list_item_left_margin">12dp</dimen>
+    <dimen name="daily_list_item_left_margin">110dp</dimen>
     <dimen name="daily_list_item_right_margin">12dp</dimen>
     <dimen name="daily_list_item_top_margin">8dp</dimen>
 

@@ -1,44 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/tools">
 
     <data>
+
         <variable
             name="day"
             type="String" />
+
         <variable
             name="monthYear"
             type="String" />
+
         <variable
             name="open"
             type="String" />
+
         <variable
             name="close"
             type="String" />
+
         <variable
             name="change"
             type="String" />
     </data>
 
-    <LinearLayout
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingTop="2.5dp"
-        android:paddingBottom="2.5dp"
-        android:orientation="horizontal">
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/current_info_left_margin"
+        android:layout_marginEnd="@dimen/current_info_right_margin"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:cardCornerRadius="4dp"
+        card_view:cardElevation="500dp"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:focusable="true"
+        android:elevation="8dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0.0px"
+        android:clipToPadding="false"
+        android:clipChildren="false"
+        app:cardElevation="10dp"
+
+        app:cardPreventCornerOverlap="false">
 
         <RelativeLayout
             android:layout_width="95dp"
             android:layout_height="85dp"
-            android:background="@drawable/blue_square"
-            >
+            android:background="@drawable/blue_square">
 
             <TextView
                 android:id="@+id/date_day"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center_horizontal"
                 android:layout_alignParentTop="true"
                 android:layout_marginTop="-15dp"
+                android:gravity="center_horizontal"
                 android:text="@{day}"
                 android:textAppearance="@style/date_day_txt" />
 
@@ -46,11 +70,11 @@
                 android:id="@+id/date_month_year"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center_horizontal"
-                android:layout_alignParentStart="true"
                 android:layout_below="@+id/date_day"
+                android:layout_alignParentStart="true"
                 android:layout_marginTop="-10dp"
                 android:layout_marginBottom="5dp"
+                android:gravity="center_horizontal"
                 android:text="@{monthYear}"
                 android:textAppearance="@style/date_month_year" />
 
@@ -58,17 +82,16 @@
 
         <RelativeLayout
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            >
+            android:layout_height="match_parent">
 
             <TextView
                 android:id="@+id/daily_open_string"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
                 android:layout_alignParentStart="true"
-                android:layout_marginTop="@dimen/daily_list_item_top_margin"
+                android:layout_alignParentTop="true"
                 android:layout_marginStart="@dimen/daily_list_item_left_margin"
+                android:layout_marginTop="@dimen/daily_list_item_top_margin"
                 android:text="@string/info_open_string"
                 android:textAppearance="@style/daily_item_metric_name" />
 
@@ -88,10 +111,10 @@
                 android:id="@+id/daily_close_string"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
                 android:layout_below="@+id/daily_open_string"
-                android:layout_marginTop="@dimen/daily_list_item_top_margin"
+                android:layout_alignParentStart="true"
                 android:layout_marginStart="@dimen/daily_list_item_left_margin"
+                android:layout_marginTop="@dimen/daily_list_item_top_margin"
                 android:text="@string/info_close_string"
                 android:textAppearance="@style/daily_item_metric_name" />
 
@@ -111,10 +134,10 @@
                 android:id="@+id/daily_change_string"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentStart="true"
                 android:layout_below="@+id/daily_close_string"
-                android:layout_marginTop="@dimen/daily_list_item_top_margin"
+                android:layout_alignParentStart="true"
                 android:layout_marginStart="@dimen/daily_list_item_left_margin"
+                android:layout_marginTop="@dimen/daily_list_item_top_margin"
                 android:text="@string/info_change_string"
                 android:textAppearance="@style/daily_item_metric_name" />
 
@@ -132,5 +155,5 @@
 
         </RelativeLayout>
 
-    </LinearLayout>
+    </androidx.cardview.widget.CardView>
 </layout>
